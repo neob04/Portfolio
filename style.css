@@ -1,0 +1,175 @@
+/* Par defaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #2b2929;
+    color: #ffffff;
+}
+
+/* Haut de page */
+header {
+    background-color: #212127;
+    padding-top: 10px 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+/* Div du logo */
+header div {
+    margin-left: 10px;
+}
+
+/* Logo - Haut de page */
+.logo_bf_hp {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #21c25d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Milieu de page / Principal */
+main {
+    padding: 20px;
+    padding-bottom: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+/* Style pour chaque section du main */
+section {
+    margin-bottom: 10px;
+    padding-top: 70px;
+}
+
+section h1{
+    color: #ffffff;
+    
+}
+
+section h2 {
+    color: #21c25d;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+}
+
+section h3 {
+    font-size: 18px;
+}
+
+section p {
+    font-size: 1em;
+}
+
+/* Bloc */
+.bloc {
+    margin-bottom: 20px;
+    background-color: #1a1919;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+/* Specificite */
+.photo_accueil {
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+
+/* Formulaire de contact */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+} 
+
+
+
+/* Bas de page */
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* Style du lien "remonter en haut" */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;  /* Position en bas de la page */
+    right: 20px;   /* Position sur la droite */
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    opacity: 0.5;  /* Un peu transparent */
+    transition: opacity 0.3s ease;  /* Effet de transition sur la transparence */
+}
+
+/* Effet hover pour rendre le bouton plus visible au survol */
+.back-to-top:hover {
+    opacity: 1;
+}
