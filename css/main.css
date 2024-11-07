@@ -5,6 +5,7 @@
     box-sizing: border-box; 
 }
 
+
 /* Corps de la page */
 body {
     font-family: Arial, sans-serif;
@@ -12,6 +13,7 @@ body {
     background-color: #2b2929;
     color: #ffffff;
 }
+
 
 /* Haut de page */
 header {
@@ -31,10 +33,6 @@ header div {
     margin-left: 10px;
 }
 
-/* Logo - Haut de page */
-.logo_bf_hp {
-    height: 50px;
-}
 
 header nav ul {
     list-style: none;
@@ -54,6 +52,7 @@ header nav ul li a {
 header nav ul li a:hover {
     text-decoration: underline;
 }
+
 
 /* Milieu de page / Principal */
 main {
@@ -100,47 +99,6 @@ section p {
     border-radius: 30px;
 }
 
-/* Specificite */
-.photo_accueil {
-    width: 150px;
-    border-radius: 50%;
-}
-
-
-
-/* Formulaire de contact */
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-form input, form textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #555;
-} 
-
-
 
 /* Bas de page */
 footer {
@@ -152,24 +110,3 @@ footer {
     width: 100%;
 }
 
-
-
-/* Style du lien "remonter en haut" */
-.back-to-top {
-    position: fixed;
-    bottom: 20px;  /* Position en bas de la page */
-    right: 20px;   /* Position sur la droite */
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 18px;
-    opacity: 0.5;  /* Un peu transparent */
-    transition: opacity 0.3s ease;  /* Effet de transition sur la transparence */
-}
-
-/* Effet hover pour rendre le bouton plus visible au survol */
-.back-to-top:hover {
-    opacity: 1;
-}

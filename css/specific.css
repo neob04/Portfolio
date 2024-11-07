@@ -1,0 +1,39 @@
+/* HEADER */
+/* Logo */
+.logo_bf_hp {
+    height: 50px;
+}
+
+
+/* MAIN */
+/* Photo - Accueil */
+.photo_accueil {
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+/* FOOTER */
+
+
+
+/* BOUTON */
+/* Style du lien "remonter en haut" */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;  /* Position en bas de la page */
+    right: 20px;   /* Position sur la droite */
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    opacity: 0.5;  /* Un peu transparent */
+    transition: opacity 0.3s ease;  /* Effet de transition sur la transparence */
+}
+
+/* Effet hover pour rendre le bouton plus visible au survol */
+.back-to-top:hover {
+    opacity: 1;
+}
