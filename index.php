@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Baptiste FAOUËN</title>
-    <link rel="stylesheet" href="css/main.css"> <!-- Lien vers le fichier CSS principal -->
-    <link rel="stylesheet" href="css/responsive.css"> <!-- Lien vers le fichier CSS responsive -->
-    <link rel="stylesheet" href="css/specific.css"> <!-- Lien vers le fichier CSS des spécificités -->
-    <link rel="stylesheet" href="css/contact.css"> <!-- Lien vers le fichier CSS de la zone conctact -->
+    <link rel="stylesheet" href="assets/css/main.css"> <!-- Lien vers le fichier CSS principal -->
+    <link rel="stylesheet" href="assets/css/responsive.css"> <!-- Lien vers le fichier CSS responsive -->
+    <link rel="stylesheet" href="assets/css/specific.css"> <!-- Lien vers le fichier CSS des spécificités -->
+    <link rel="stylesheet" href="assets/css/contact.css"> <!-- Lien vers le fichier CSS de la zone conctact -->
 </head>
 <body>
     <!-- En-tête avec navigation -->
     <header>
         <div>
-            <a href="logo_bf_hp"><img src="assets/images/logo_bf.png" alt="Mon Logo" class="logo_bf_hp"></a>
+            <a href="index.php"><img src="assets/images/logo_bf.png" alt="Logo BF" class="logo_bf_et"></a>
         </div>
-        <nav class="menu">
+        <nav class="en_tete">
             <ul>
-                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="index.php">Accueil</a></li>
                 <li><a href="#bts_sio">BTS SIO</a></li>
                 <li><a href="#ecole_&_entreprise">École & Entreprise</a></li>
                 <li><a href="#realisations">Réalisations</a></li>
@@ -145,25 +145,8 @@
         <!-- Contact -> A TRAVAILLER !!!!! -->
         <section id="contact">
             <h2>Contact</h2>
-            <form id="contactForm" action="#" method="post">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" required>
-    
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
-    
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" required></textarea>
-    
-                <button type="submit">Envoyer</button>
-            </form>
-            
-            <!-- Zone pour afficher des messages de validation -->
-            <p id="formMessage"></p>
-        </section>
 
-        <!-- Lien vers le fichier JavaScript -->
-        <script src="script.js"></script>
+        </section>
         
     </main>
 
@@ -177,3 +160,4 @@
 
 </body>
 </html>
+
