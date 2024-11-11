@@ -1,163 +1,20 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Baptiste FAOUËN</title>
-    <link rel="stylesheet" href="assets/css/main.css"> <!-- Lien vers le fichier CSS principal -->
-    <link rel="stylesheet" href="assets/css/responsive.css"> <!-- Lien vers le fichier CSS responsive -->
-    <link rel="stylesheet" href="assets/css/specific.css"> <!-- Lien vers le fichier CSS des spécificités -->
-    <link rel="stylesheet" href="assets/css/contact.css"> <!-- Lien vers le fichier CSS de la zone conctact -->
-</head>
-<body>
-    <!-- En-tête avec navigation -->
-    <header>
-        <div>
-            <a href="index.php"><img src="assets/images/logo_bf.png" alt="Logo BF" class="logo_bf_et"></a>
-        </div>
-        <nav class="en_tete">
-            <ul>
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="#bts_sio">BTS SIO</a></li>
-                <li><a href="#ecole_&_entreprise">École & Entreprise</a></li>
-                <li><a href="#realisations">Réalisations</a></li>
-                <li><a href="#projets">Projets</a></li>
-                <li><a href="#veille_techno">Veille Technologique</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<?php
+    $pageTitle = "Accueil - Portfolio BF";
+    include $_SERVER['DOCUMENT_ROOT'] . '/Portfolio/inc/head.php';
+    include $_SERVER['DOCUMENT_ROOT'] . '/Portfolio/inc/header.php';
+?>
 
-    <!-- Section principale -->
-    <main>
-        <!-- À propos -->
-        <section id="accueil">
-            <h2>Accueil</h2>
-            <div class="bloc">
-                <img src="assets/images/photo_accueil_portfolio.jpg" alt="Photo Accueil" class="photo_accueil">
-                <p class="desc_etudiant">Etudiant en BTS SIO Solutions Logicielles et Applications Métiers, je suis ravie de vous présenter mon Portfolio.</p>
-            </div>
-        </section>
-           
-        <!-- BTS SIO -->
-        <section id="bts_sio">
-            <h2>BTS SIO</h2>
-            <div class="bloc">
-                <h3>Brève définition du BTS SIO</h3>
-                <p>Présentation de la formation.</p>
-            </div>
-            <div class="bloc">
-                <h3>Option SISR</h3>
-                <p>Définition.</p>
-                <p>Les métiers.</p>
-            </div>
-            <div class="bloc">
-                <h3>Option SLAM</h3>
-                <p>Définition.</p>
-                <p>Les métiers.</p>
-            </div>
-        </section>
-
-        <!-- École & Entreprise -->
-        <section id="ecole_&_entreprise">
-            <h2>École & Entreprise</h2>
-            <div class="bloc">
-                <h3>Ecole</h3>
-                <p>Présentation de l'école.</p>
-                <p>Son logo.</p>
-                <p>Le lien vers son site.</p>
-            </div>
-            <div class="bloc">
-                <h3>Entreprise</h3>
-                <p>Brève présentation de l'entreprise et de ses principales activités.</p>
-                <p>Son logo.</p>
-                <p>Le lien vers son site.</p>              
-            </div>
-        </section>
-
-        <!-- Réalisations -->
-        <section id="realisations">
-            <h2>Réalisations</h2>
-            <div class="bloc">
-                <h3>Projet 1</h3>
-                <p>Description du projet 1.
-                    Une image, un nom, une courte description (option), techno utilisé, redirection vers la page ou github projet (si en ligne)
-                </p>
-            </div>
-            <div class="bloc">
-                <h3>Projet 2</h3>
-                <p>Une image, etc...</p>
-            </div>
-            <div class="bloc">
-                <h3>Projet 3</h3>
-                <p>Description du projet 3.</p>
-            </div>
-            <div class="bloc">
-                <h3>Projet 4</h3>
-                <p>Description du projet 4.</p>
-            </div>
-            <div class="bloc">
-                <h3>Projet 5</h3>
-                <p>Description du projet 5.</p>
-            </div>
-            <div class="bloc">
-                <h3>Projet 6</h3>
-                <p>Description du projet 6.</p>
-            </div>
-        </section>
-
-        <!-- Projets -->
-        <section id="projets">
-            <h2>Projets</h2>
-            <div class="bloc">
-                <h3>Client léger</h3>
-                <p>Description du projet 1 plus détaillé.</p>
-            </div>
-            <div class="bloc">
-                <h3>Client lourd 1</h3>
-                <p>Description du projet 2 plus détaillé.</p>
-            </div>
-        </section>
-
-        <!-- Veille Technologique -->
-        <section id="veille_techno">
-            <h2>Veille Technologique</h2>
-            <div class="bloc">
-                <h3>Sécurité</h3>
-                <p>Description de la veille 1. Le mieux est de choisir des sites liés à nos 2 projets de fin d'année.
-                    Peut choisir "medium", "getpocket" par ex ou autre.
-                </p>
-            </div>
-            <div class="bloc">
-                <h3>Réglementation</h3>
-                <p>Description de la veille.</p>
-            </div>
-            <div class="bloc">
-                <h3>Actualité Générale</h3>
-                <p>Description de la veille.</p>
-            </div>
-            <div class="bloc">
-                <h3>UI / UX (SLAM)</h3>
-                <p>Description de la veille.</p>
-            </div>
-        </section>
-
-        <!-- Contact -> A TRAVAILLER !!!!! -->
-        <section id="contact">
-            <h2>Contact</h2>
-
-        </section>
-        
-    </main>
-
-    <!-- Bouton pour remonter en haut -->
-    <a href="#" class="back-to-top">↑</a>
-
-    <!-- Pied de page -->
-    <footer>
-        <p>&copy; 2024 Baptiste FAOUËN. Tous droits réservés.</p>
-    </footer>
-
-</body>
-</html>
+<!-- Accueil -->
+<section id="accueil">
+    <h2>Accueil</h2>
+    <div class="bloc">
+        <img src="assets/images/photo_accueil_portfolio.jpg" alt="Photo Accueil" class="photo_accueil">
+        <p class="desc_etudiant">Etudiant <br>
+        en BTS SIO Solutions Logicielles et Applications Métiers, je suis ravie de vous présenter mon Portfolio.</p>
+    </div>
+</section>
+    
+<?php
+    include $_SERVER['DOCUMENT_ROOT'] . '/Portfolio/inc/footer.php';
+?>
 

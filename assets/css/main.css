@@ -10,16 +10,20 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #2b2929;
+    background-color: #0c0c0c;
     color: #ffffff;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 60px; /* Valeur à ajuster pour que le contenu ne soit pas recouvert par le footer */
 }
 
 
 /* Haut de page */
 header {
-    background-color: #212127;
+    background-color: #000000;
     padding-top: 10px 0;
-    font-size: 16px;
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,17 +60,16 @@ header nav ul li a:hover {
 
 /* Milieu de page / Principal */
 main {
+   max-width: 1000px;
+    width: 100%;
     padding: 20px;
-    padding-bottom: 50px;
-    max-width: 1000px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 /* Style pour chaque section du main */
 section {
     margin-bottom: 10px;
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
 section h1{
@@ -78,22 +81,22 @@ section h2 {
     color: #21c25d;
     margin-bottom: 10px;
     font-size: 1.4em;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #0e0d0d;
     padding-bottom: 5px;
 }
 
 section h3 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 section p {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 /* Bloc */
 .bloc {
     margin-bottom: 20px;
-    background-color: #1a1919;
+    background-color: #050505;
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
@@ -105,8 +108,10 @@ footer {
     text-align: center;
     background-color: #000000;
     color: #fff;
+    position: absolute;
     padding: 20px 0;
     bottom: 0;
     width: 100%;
+    position: absolute;
 }
 
