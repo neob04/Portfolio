@@ -3,13 +3,32 @@
 .logo_bf_et {
     height: 40px;
     align-items: center;
+    transition: transform 0.4s ease; /* Transition fluide pour la transformation */
+}
+
+
+.logo_bf_et:hover {
+    transition-delay: 0s; /* Délai avant que l'effet démarre */
+    transform: scale(1.2); /* Légère augmentation avec une transformation */
+}
+
+/* Effet au survol */
+header nav ul li a:hover {
+    transform: scale(1.02); /* Agrandit légèrement l'onglet sur hover */
+    text-decoration: underline; /* Ajoute un soulignement sous l'onglet sur hover */
+}
+
+/* Style pour l'onglet actif */
+header nav ul li a.active {
+    transform: scale(1.04); /* Agrandit davantage l'onglet actif */
+    text-decoration: underline; /* Soulignement visible pour l'onglet actif */
 }
 
 
 /* MAIN */
 /* Photo - Accueil */
 .photo_accueil {
-    width: 200px;
+    width: 300px;
     border-radius: 50%;
 }
 

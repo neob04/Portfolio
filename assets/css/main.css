@@ -49,13 +49,13 @@ header nav ul li {
 
 header nav ul li a {
     color: #21c25d;
-    text-decoration: none;
+    text-decoration: none; /* Enlève le soulignement par défaut */
+    font-size: 15px;
     font-weight: bold;
+    display: inline-block;
+    transition: transform 0.3s ease, text-decoration 0.3s ease; /* Transition fluide pour transform et text-decoration */
 }
 
-header nav ul li a:hover {
-    text-decoration: underline;
-}
 
 
 /* Milieu de page / Principal */
@@ -90,7 +90,7 @@ section h3 {
 }
 
 section p {
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 /* Bloc */
@@ -109,9 +109,9 @@ footer {
     background-color: #000000;
     color: #fff;
     position: absolute;
-    padding: 20px 0;
+    padding: 10px 0;
     bottom: 0;
     width: 100%;
-    position: absolute;
+    font-size: 12px;
 }
 

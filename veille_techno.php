@@ -10,7 +10,8 @@
     <div class="bloc">
         <h3>Sécurité</h3>
         <p>Description de la veille 1. Le mieux est de choisir des sites liés à nos 2 projets de fin d'année.
-            Peut choisir "medium", "getpocket" par ex ou autre.
+            Peut choisir "medium", "getpocket" par ex ou autre. <br>
+            Choix eventuel de "NEXT"
         </p>
     </div>
     <div class="bloc">

@@ -1,7 +1,7 @@
 <!-- HEADER -->
 <header>
     <div>
-        <a href="index.php"><img src="assets/images/logo_bf_black.png" alt="Logo BF" class="logo_bf_et"></a>
+        <a href="https://github.com/neob04/Portfolio.git"><img src="assets/images/logo_bf_black.png" alt="Logo BF" class="logo_bf_et"></a>
     </div>
     <nav class="en_tete">
         <ul>
