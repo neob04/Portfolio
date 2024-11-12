@@ -22,7 +22,7 @@ body {
 /* Haut de page */
 header {
     background-color: #000000;
-    padding-top: 10px 0;
+    padding-top: 4px 0;
     font-size: 15px;
     display: flex;
     justify-content: space-between;
@@ -50,10 +50,9 @@ header nav ul li {
 header nav ul li a {
     color: #21c25d;
     text-decoration: none; /* Enlève le soulignement par défaut */
-    font-size: 15px;
+    font-size: 1.2rem;
     font-weight: bold;
     display: inline-block;
-    transition: transform 0.3s ease, text-decoration 0.3s ease; /* Transition fluide pour transform et text-decoration */
 }
 
 
@@ -69,7 +68,7 @@ main {
 /* Style pour chaque section du main */
 section {
     margin-bottom: 10px;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 section h1{
@@ -81,26 +80,18 @@ section h2 {
     color: #21c25d;
     margin-bottom: 10px;
     font-size: 1.4em;
-    border-bottom: 2px solid #0e0d0d;
+    border-bottom: 2px solid #111111;
     padding-bottom: 5px;
 }
 
 section h3 {
-    font-size: 16px;
+    font-size: 1.2rem;
 }
 
 section p {
-    font-size: 0.9em;
+    font-size: 1rem;
 }
 
-/* Bloc */
-.bloc {
-    margin-bottom: 20px;
-    background-color: #050505;
-    padding: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 30px;
-}
 
 
 /* Bas de page */

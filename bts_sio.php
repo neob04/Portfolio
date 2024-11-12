@@ -7,16 +7,16 @@
 <!-- BTS SIO -->
 <section id="bts_sio">
     <h2>BTS SIO</h2>
-    <div class="bloc">
+    <div class="bloc_bts_sio">
         <h3>Brève définition du BTS SIO</h3>
         <p>Présentation de la formation.</p>
     </div>
-    <div class="bloc">
+    <div class="bloc_sisr">
         <h3>Option SISR</h3>
         <p>Définition.</p>
         <p>Les métiers.</p>
     </div>
-    <div class="bloc">
+    <div class="bloc_slam">
         <h3>Option SLAM</h3>
         <p>Définition.</p>
         <p>Les métiers.</p>
