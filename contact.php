@@ -5,9 +5,11 @@
 ?>
 
 <!-- Contact -> A TRAVAILLER !!!!! -->
-<section id="contact">
+<section class="contact">
     <h2>Contact</h2>
+    <div class="bloc_contact">
 
+    </div>
 </section>
 
 <?php

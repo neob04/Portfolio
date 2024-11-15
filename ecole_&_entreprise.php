@@ -5,15 +5,15 @@
 ?>
 
 <!-- École & Entreprise -->
-<section id="ecole_&_entreprise">
+<section class="ecole_entreprise">
     <h2>École & Entreprise</h2>
-    <div class="bloc">
+    <div class="bloc_ecole">
         <h3>Ecole</h3>
         <p>Présentation de l'école.</p>
         <p>Son logo.</p>
         <p>Le lien vers son site.</p>
     </div>
-    <div class="bloc">
+    <div class="bloc_entreprise">
         <h3>Entreprise</h3>
         <p>Brève présentation de l'entreprise et de ses principales activités.</p>
         <p>Son logo.</p>

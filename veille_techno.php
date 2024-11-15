@@ -5,24 +5,24 @@
 ?>
 
 <!-- Veille Technologique -->
-<section id="veille_techno">
+<section class="veille_techno">
     <h2>Veille Technologique</h2>
-    <div class="bloc">
+    <div class="bloc_secu">
         <h3>Sécurité</h3>
         <p>Description de la veille 1. Le mieux est de choisir des sites liés à nos 2 projets de fin d'année.
             Peut choisir "medium", "getpocket" par ex ou autre. <br>
             Choix eventuel de "NEXT"
         </p>
     </div>
-    <div class="bloc">
+    <div class="bloc_reglm">
         <h3>Réglementation</h3>
         <p>Description de la veille.</p>
     </div>
-    <div class="bloc">
+    <div class="bloc_act_gen">
         <h3>Actualité Générale</h3>
         <p>Description de la veille.</p>
     </div>
-    <div class="bloc">
+    <div class="bloc_ui_ux">
         <h3>UI / UX (SLAM)</h3>
         <p>Description de la veille.</p>
     </div>

@@ -1,0 +1,24 @@
+/* Section Ecole & Entreprise */
+
+
+/* Bloc Ecole */
+.bloc_ecole {
+    margin-bottom: 20px;
+    background-color: #050505;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+
+/* Bloc Entreprise */
+.bloc_entreprise {
+    margin-bottom: 20px;
+    background-color: #050505;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+
+

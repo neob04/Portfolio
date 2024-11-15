@@ -19,3 +19,4 @@
     <script src="assets/js/script.js?v=1.0" defer></script> <!-- Lien vers le fichier JavaScript + force le navigateur à charger dernière version -->
 </head>
 <body>
+

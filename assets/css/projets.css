@@ -1,0 +1,23 @@
+/* Section Projets */
+
+
+/* Bloc Client Léger */
+.bloc_cl_leger {
+    margin-bottom: 20px;
+    background-color: #050505;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+
+/* Bloc Client Lourd */
+.bloc_cl_lourd {
+    margin-bottom: 20px;
+    background-color: #050505;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+

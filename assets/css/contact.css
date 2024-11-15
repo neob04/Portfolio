@@ -1,1 +1,11 @@
-/* Formulaire de contact */
+/* Section Contact */
+
+/* Bloc Contact */
+.bloc_contact {
+    margin-bottom: 20px;
+    background-color: #050505;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+

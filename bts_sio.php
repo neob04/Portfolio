@@ -5,7 +5,7 @@
 ?>
 
 <!-- BTS SIO -->
-<section id="bts_sio">
+<section class="bts_sio">
     <h2>BTS SIO</h2>
     <div class="bloc_bts_sio">
         <h3>Brève définition du BTS SIO</h3>
