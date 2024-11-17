@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = "Veille Technologique - Portfolio BF";
+    $pageTitle = "Veille Technologique | Portfolio - BF";
     include $_SERVER['DOCUMENT_ROOT'] . '/Portfolio/inc/head.php';
     include $_SERVER['DOCUMENT_ROOT'] . '/Portfolio/inc/header.php';
 ?>
@@ -9,9 +9,11 @@
     <h2>Veille Technologique</h2>
     <div class="bloc_secu">
         <h3>Sécurité</h3>
-        <p>Description de la veille 1. Le mieux est de choisir des sites liés à nos 2 projets de fin d'année.
-            Peut choisir "medium", "getpocket" par ex ou autre. <br>
-            Choix eventuel de "NEXT"
+        <p>
+            Description de la veille 1. Le mieux est de choisir des sites liés à nos 2 projets de fin d'année.
+            Peut choisir "medium", "getpocket" par ex ou autre.
+            <br>
+            Choix eventuel de "Pocket" ou "Feedly" pour la plateforme. Le choix du sujet reste à déterminer.
         </p>
     </div>
     <div class="bloc_reglm">

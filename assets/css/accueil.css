@@ -6,15 +6,51 @@
     border-radius: 30px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    text-align: center;
 }
 
 .photo_accueil {
     width: 300px;
     border-radius: 50%;
-    text-align: center;
+
 }
 
+
+/* DESCRIPTION */
 .desc_etudiant {
     display: flex;
     flex-direction: column;
+    margin-left: 40px;
+}
+
+
+/* Boutons */
+.liens_accueil {
+    display: flex; /* Active le mode flexbox */
+    flex-direction: row;
+    align-items: center; /* Centre les boutons verticalement (si nécessaire) */
+    justify-content: center;
+    height: 100px; /* Facultatif, pour démontrer l'alignement vertical */
+
+}
+
+.boutons_accueil {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #21c25d;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px;
+    font-size: 16px;
+    transition: background-color 1s ease, transform 0.2s ease;
+}
+
+
+.boutons_accueil:hover {
+    transform: translateY(-3px); /* Légère élévation */
+    box-shadow: 0px 10px 20px #01461a; /* Ombre plus grande pour l'effet 3D */
 }

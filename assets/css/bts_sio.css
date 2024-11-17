@@ -8,11 +8,27 @@
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
+    margin-bottom: 50px;
 }
 
 
-/* Bloc SISR */
-.bloc_sisr {
+
+
+/* Bloc Option*/
+.bloc_opt_bts_sio {
+    display: flex;
+    flex-direction: row;
+    gap: 70px; /* Espacement entre les div */
+    
+}
+
+.bloc_opt_bts_sio ul li {
+    margin-left: 50px;
+}
+
+
+/* Option SLAM */
+.opt_slam {
     margin-bottom: 20px;
     background-color: #050505;
     padding: 15px;
@@ -21,8 +37,9 @@
 }
 
 
-/* Bloc SISR */
-.bloc_slam {
+
+/* Option SISR */
+.opt_sisr {
     margin-bottom: 20px;
     background-color: #050505;
     padding: 15px;

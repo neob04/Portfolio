@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = "École & Entreprise - Portfolio BF";
+    $pageTitle = "École & Entreprise | Portfolio - BF";
     include $_SERVER['DOCUMENT_ROOT'] . '/Portfolio/inc/head.php';
     include $_SERVER['DOCUMENT_ROOT'] . '/Portfolio/inc/header.php';
 ?>
