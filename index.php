@@ -14,7 +14,9 @@
                 <h3>Bienvenue sur mon Portfolio !</h3>
                 <p>
                 <br>
-                Je suis Baptiste Faouën, étudiant en BTS SIO SLAM. Passionné par le développement, ce portfolio présente mes compétences et projets réalisés durant ma formation.
+                Je suis Baptiste Faouën, étudiant en BTS SIO SLAM.
+                <br>
+                Passionné par le développement, ce portfolio présente mes compétences et projets réalisés durant ma formation.
                 <br>
                 <br>
                 Explorez mes réalisations et contactez-moi pour toute collaboration ou question : </p>

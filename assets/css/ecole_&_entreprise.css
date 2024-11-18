@@ -10,6 +10,14 @@
     border-radius: 30px;
 }
 
+.com_ensitech {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* Centrer éléments au sein de la div tout en laissant un espace */
+    align-items: center;
+    text-align: center;
+}
+
 
 /* Bloc Entreprise */
 .bloc_entreprise {
@@ -20,5 +28,16 @@
     border-radius: 30px;
 }
 
+.com_caps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* Centrer éléments au sein de la div tout en laissant un espace */
+    align-items: center;
+    text-align: center;
+}
+
+.logo_caps {
+    width: 120px;
+}
 
 
