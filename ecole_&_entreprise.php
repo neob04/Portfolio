@@ -38,6 +38,9 @@
                 Ses missions incluent le pilotage de la stratégie, la conception d’offres innovantes, l’exploitation des plateformes de traitement, la supervision des opérations, et la sécurité des transactions du groupe.
                 <br>
                 <br>
+                J'ai eu la chance durant mon alternance de faire partie de l'équipe SCH (Sécurité, Continuité & Habilitations) de cette entité.
+                <br>
+                <br>
                 L’activité paiement joue un rôle central pour les banques du Groupe, en raison de ses enjeux commerciaux, financiers et technologiques.
                 <br>
                 CAPS contribue à faire des paiements un levier d’innovation et de création de valeur pour le Crédit Agricole.

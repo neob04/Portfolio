@@ -18,6 +18,8 @@
                 <br>
                 <br>
                 Ce cursus met l'accent sur l'apprentissage des outils et technologies indispensables pour répondre aux besoins numériques des organisations, qu’il s’agisse de créer des applications ou de gérer des infrastructures réseau.
+                <br>
+                <br>
             </p>
         </div>
         <div class="com_bts_sio">
