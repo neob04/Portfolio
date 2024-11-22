@@ -9,7 +9,7 @@
     <h2>Projets</h2>
     <div class="bloc_cl_leger">
         <h3>Client léger</h3>
-        <p>Description du projet 1 plus détaillé.</p>
+        <p>Description du projet 1 + joindre le cahier des charges dans un premier temps</p>
     </div>
     <div class="bloc_cl_lourd">
         <h3>Client lourd 1</h3>

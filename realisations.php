@@ -7,21 +7,40 @@
 <!-- Réalisations -->
 <section class="realisations">
     <h2>Réalisations</h2>
-    <div class="bloc_prj_1">
-        <h3>Portfolio</h3>
+    <div class="bloc_prj1">
         <!-- Une image, un nom, une courte description (option), techno utilisé, redirection vers la page ou github projet (si en ligne) -->
-        <p>
-            La création de ce Portfolio !
-            <br>
-            <br>
-            <i>PHP | CSS3 | Javascript</i>
-        </p> 
+        <div class="gauche_desc_prj1">
+            <h3>Portfolio</h3>
+            <p>
+                La création de ce Portfolio !
+                <br>
+                <br>
+                <img class="screen_real1" src="assets/docs/realisations/screen_real1.png" alt="Page d'accueil - Portfolio">
+                <br>
+                <br>
+            </p>
+        </div>
+        <div class="droite_desc_prj1">
+            <div class="liens_prj1">
+                <button class="boutons_prj1" onclick="window.location.href='http://localhost/Portfolio/index.php';"> Consulter mon site </button> 
+                <button class="boutons_prj1" onclick="window.location.href='https://github.com/neob04/Portfolio';"> Lien GitHub </button>
+            </div>
+            <div class="lang_prj1">
+                <p>
+                    <br>
+                    <br>
+                    <i>PHP | CSS3 | Javascript</i>
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>
     </div>
 
     <div class="bloc_prj_2">
         <h3>Projet d'introduction au responsive - ChatGPT</h3>
         <p>
-            Desc courte, une image, etc...
+            Desc courte, une image, etc... + JOINDRE BOUTONS vers github au minumum
             <br>
             <br>
             <i>HTML5 | CSS3</i>

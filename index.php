@@ -22,8 +22,8 @@
                 Explorez mes réalisations et contactez-moi pour toute collaboration ou question : </p>
             </div>
             <div class="liens_accueil">
-                 <button class="boutons_accueil" onclick="window.location.href='http://localhost/Portfolio/assets/docs/cv_bf.pdf';"> Consulter mon CV </button> 
-                 <button class="boutons_accueil" onclick="window.location.href='http://localhost/Portfolio/contact.php';"> Me contacter </button>
+                <button class="boutons_accueil" onclick="window.location.href='http://localhost/Portfolio/assets/docs/cv_bf.pdf';"> Consulter mon CV </button> 
+                <button class="boutons_accueil" onclick="window.location.href='http://localhost/Portfolio/contact.php';"> Me contacter </button>
             </div>
         </div></>
     </div>
