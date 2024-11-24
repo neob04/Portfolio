@@ -6,7 +6,7 @@
 
 <!-- École & Entreprise -->
 <section class="ecole_entreprise">
-    <h2>École & Entreprise</h2>
+    <h2>Mon École [...]</h2>
     <div class="bloc_ecole">
         <div class="desc_ensitech">
             <h3>ENSITECH</h3>
@@ -25,9 +25,10 @@
         </div>    
         <div class="com_ensitech"> 
             <img class="logo_ensitech" src="assets/images/ensitech.png" alt="Logo Ensitech">
-            <p>Clique <a href="https://www.ensitech.eu/">ici</a> pour en découvrir plus sur ENSITECH !</p>
+            <p><a href="https://www.ensitech.eu/">Clique ici</a> pour en découvrir plus sur ENSITECH !</p>
         </div>
     </div>
+    <h2>[...] & mon Entreprise !</h2>
     <div class="bloc_entreprise">
         <div class="desc_caps">
             <h3>Crédit Agricole Payment Services (CAPS)</h3>
@@ -40,6 +41,9 @@
                 <br>
                 J'ai eu la chance durant mon alternance de faire partie de l'équipe SCH (Sécurité, Continuité & Habilitations) de cette entité.
                 <br>
+                <!-- Développer + -->
+                (DEVELOPPER UN PEU PLUS CETTE PARTIE)
+                <br>
                 <br>
                 L’activité paiement joue un rôle central pour les banques du Groupe, en raison de ses enjeux commerciaux, financiers et technologiques.
                 <br>
@@ -50,7 +54,7 @@
         </div>
         <div class="com_caps">    
             <img class="logo_caps" src="assets/images/caps.png" alt="Logo CAPS">
-            <p>Clique <a href="https://www.credit-agricole.com/marques-et-metiers/toutes-nos-marques/credit-agricole-payment-services">ici</a> pour en découvrir plus sur CAPS !</p>
+            <p><a href="https://www.credit-agricole.com/marques-et-metiers/toutes-nos-marques/credit-agricole-payment-services">Clique ici</a> pour en découvrir plus sur CAPS !</p>
         </div> 
     </div>
 </section>

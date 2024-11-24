@@ -1,6 +1,4 @@
 /* Section Réalisations */
-
-
 /* Bloc Projet 1 */
 .bloc_prj1 {
     margin-bottom: 20px;
@@ -22,7 +20,7 @@
     flex-direction: column;
 }
 
-/* Boutons Projet 1 */
+/* Boutons et langages Projet 1 */
 .liens_prj1 {
     display: flex; /* Active le mode flexbox */
     flex-direction: row;
@@ -50,6 +48,10 @@
 .boutons_prj1:hover {
     transform: translateY(-3px); /* Légère élévation */
     box-shadow: 0px 10px 20px #01461a; /* Ombre plus grande pour l'effet 3D */
+}
+
+.lang_prj1 {
+    margin-left: 40px;
 }
 
 

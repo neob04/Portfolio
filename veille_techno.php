@@ -7,6 +7,10 @@
 <!-- Veille Technologique -->
 <section class="veille_techno">
     <h2>Veille Technologique</h2>
+    <div class="bloc_contact">
+        <img class="img_travaux" src="assets/images/travaux.png" alt="En travaux">
+    </div>
+
     <div class="bloc_secu">
         <h3>Sécurité</h3>
         <p>
@@ -16,14 +20,17 @@
             Choix eventuel de "Pocket" ou "Feedly" pour la plateforme. Le choix du sujet reste à déterminer.
         </p>
     </div>
+
     <div class="bloc_reglm">
         <h3>Réglementation</h3>
         <p>Description de la veille.</p>
     </div>
+
     <div class="bloc_act_gen">
         <h3>Actualité Générale</h3>
         <p>Description de la veille.</p>
     </div>
+    
     <div class="bloc_ui_ux">
         <h3>UI / UX (SLAM)</h3>
         <p>Description de la veille.</p>

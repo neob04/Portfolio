@@ -1,6 +1,4 @@
 /* Section BTS SIO */
-
-
 /* Bloc BTS SIO */
 .bloc_bts_sio {
     margin-bottom: 20px;
@@ -9,6 +7,17 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     margin-bottom: 50px;
+}
+
+
+.com_bts_sio {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo_bts_sio {
+    border-radius: 20px;
 }
 
 
@@ -26,7 +35,7 @@
     margin-left: 50px;
 }
 
-
+/* Section Spécialités */
 /* Option SLAM */
 .opt_slam {
     margin-bottom: 20px;

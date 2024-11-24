@@ -18,6 +18,10 @@
     text-align: center;
 }
 
+.logo_ensitech {
+    border-radius: 20px;
+}
+
 
 /* Bloc Entreprise */
 .bloc_entreprise {
@@ -38,6 +42,7 @@
 
 .logo_caps {
     width: 120px;
+    border-radius: 20px;
 }
 
 

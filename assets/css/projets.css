@@ -1,8 +1,6 @@
 /* Section Projets */
-
-
 /* Bloc Client Léger */
-.bloc_cl_leger {
+.bloc_leger {
     margin-bottom: 20px;
     background-color: #050505;
     padding: 15px;
@@ -10,9 +8,92 @@
     border-radius: 30px;
 }
 
+.desc_leger {
+    margin-bottom: 10px;
+}
+
+/* Description et bouton cahier des charges Client Léger */
+.bloc_bouton_leger_chrg {
+    display: flex; /* Active le mode flexbox */
+    flex-direction: row;
+    align-items: center; /* Centre les boutons verticalement (si nécessaire) */
+    justify-content: center;
+    height: 100px; /* Facultatif, pour démontrer l'alignement vertical */
+    margin-top: 20px;
+}
+
+.bouton_leger_chrg {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #21c25d;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px;
+    font-size: 16px;
+    transition: background-color 1s ease, transform 0.2s ease;
+}
+
+
+.bouton_leger_chrg:hover {
+    transform: translateY(-3px); /* Légère élévation */
+    box-shadow: 0px 10px 20px #01461a; /* Ombre plus grande pour l'effet 3D */
+}
+
+/* Partie Screen */
+.screen_leger {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+/* Partie Boutons Client Léger */
+.bloc_boutons_leger {
+    display: flex; /* Active le mode flexbox */
+    flex-direction: row;
+    align-items: center; /* Centre les boutons verticalement (si nécessaire) */
+    justify-content: center;
+    height: 100px; /* Facultatif, pour démontrer l'alignement vertical */
+
+}
+
+.boutons_leger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #21c25d;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px;
+    font-size: 16px;
+    transition: background-color 1s ease, transform 0.2s ease;
+}
+
+
+.boutons_leger:hover {
+    transform: translateY(-3px); /* Légère élévation */
+    box-shadow: 0px 10px 20px #01461a; /* Ombre plus grande pour l'effet 3D */
+}
+
+.h3_liens_leger {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
 
 /* Bloc Client Lourd */
-.bloc_cl_lourd {
+.h2_lourd {
+    margin-top: 40px;
+}
+
+.bloc_lourd {
     margin-bottom: 20px;
     background-color: #050505;
     padding: 15px;
