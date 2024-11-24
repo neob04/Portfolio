@@ -8,7 +8,7 @@
 <section class="veille_techno">
     <h2>Veille Technologique</h2>
     <div class="bloc_contact">
-        <img class="img_travaux" src="assets/images/travaux.png" alt="En travaux">
+        <img class="img_travaux_veille_techno" src="assets/images/travaux.png" alt="En travaux">
     </div>
 
     <div class="bloc_secu">

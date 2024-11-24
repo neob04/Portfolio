@@ -42,7 +42,7 @@
                 J'ai eu la chance durant mon alternance de faire partie de l'équipe SCH (Sécurité, Continuité & Habilitations) de cette entité.
                 <br>
                 <!-- Développer + -->
-                (DEVELOPPER UN PEU PLUS CETTE PARTIE)
+                Cela m'a permis de découvrir les différents services de mon équipe lors de ma formation.
                 <br>
                 <br>
                 L’activité paiement joue un rôle central pour les banques du Groupe, en raison de ses enjeux commerciaux, financiers et technologiques.
