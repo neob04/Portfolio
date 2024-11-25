@@ -63,8 +63,8 @@
 <!-- A finir -->
         <h3 class="h3_liens_leger">Les liens utiles du client léger :</h3>
         <div class="bloc_boutons_leger">
-            <button class="boutons_leger" onclick="window.location.href='https://docs.google.com/document/d/1m0P90xistFcKZ_A3ZnCf4LTGHMBi5GH1EAAwYwyQr2s/edit?tab=t.0#heading=h.p2xdgdsf0dye';">Voir le cahier des charges</button>
-            <button class="boutons_leger" onclick="window.location.href='https://docs.google.com/document/d/1m0P90xistFcKZ_A3ZnCf4LTGHMBi5GH1EAAwYwyQr2s/edit?tab=t.0#heading=h.p2xdgdsf0dye';">Voir le cahier des charges</button>
+            <button class="boutons_leger" onclick="window.location.href='';">Voir notre site</button>
+            <button class="boutons_leger" onclick="window.location.href='https://github.com/My-watching-Companion/my-watching-companion';">Lien GitHub</button>
         </div>
     </div>
     

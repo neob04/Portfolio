@@ -1,4 +1,28 @@
 /* Section Veille Technologique */
+.veille_techno li {
+    margin-left: 4%;
+}
+
+.img_travaux_veille_techno {
+    width: 20%;
+    border-radius: 20px;
+}
+
+
+/* Bloc Veille Techno */
+.bloc_veille_techno {
+    margin-bottom: 20px;
+    background-color: #050505;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.sujet_veille {
+    text-align: center;
+}
+
+
 
 
 /* Bloc Sécurité */
@@ -42,8 +66,5 @@
 
 
 
-.img_travaux_veille_techno {
-    width: 20%;
-    border-radius: 20px;
-}
+
 
