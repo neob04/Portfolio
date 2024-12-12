@@ -35,6 +35,9 @@
                 <strong>Le sujet que j'ai choisi pour ma veille technologique est le Développement Web.</strong>
                 <br>
                 <strong>L'outils que j'ai choisi pour développer ma veille est "Feedly".</strong>
+                <br>
+                <br>
+                <a href="https://www.globalsecuritymag.fr/la-cybersecurite-pierre-angulaire-du-systeme-bancaire-moderne.html">Sécurité Web bancaire</a>
             </p>
         </p>
     </div>
