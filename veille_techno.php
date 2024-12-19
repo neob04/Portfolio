@@ -6,44 +6,72 @@
 
 <!-- Veille Technologique -->
 <section class="veille_techno">
-    <h2>Veille Technologique</h2>
+    <h2>Mon sujet de Veille Technologique : JAVA</h2>
     <div class="bloc_veille_techno">
-        <img class="img_travaux_veille_techno" src="assets/images/travaux.png" alt="En travaux">
+        <h3>Java : Un pilier du développement logiciel moderne</h3>
         <p>
             <br>
-            Une veille technologique est un processus continu de collecte, d’analyse et de diffusion d’informations concernant les avancées technologiques dans un domaine spécifique.
-            Elle permet d’identifier les nouvelles tendances, les innovations, les outils, ou les technologies émergentes susceptibles d’impacter un secteur ou une activité professionnelle.
+            <strong class="str_java">Java</strong> est un langage de programmation orienté objet créé en 1995 par Sun Microsystems (aujourd’hui Oracle). 
+            Reconnu pour sa portabilité grâce à la devise "Write Once, Run Anywhere" (écrire une fois, exécuter partout), Java repose sur une machine virtuelle (JVM) qui permet d’exécuter des applications sur différentes plateformes sans modification du code.
             <br>
             <br>
-            <h4>Objectifs principaux de la veille technologique :</h4>
-            <br>
-                <li>Anticipation des évolutions : Prévoir les changements pour s'adapter aux nouvelles opportunités ou éviter les menaces</li>
-                <li>Prise de décision stratégique : Aider à orienter les choix technologiques, de développement ou d'investissement</li>
-                <li>Amélioration de la compétitivité : Permettre aux entreprises ou aux professionnels de rester en avance sur la concurrence</li>
-                <li>Innovation et développement : Identifier des idées pour développer de nouveaux produits, services ou processus</li>
+            En tant qu'étudiant en BTS SIO option SLAM, Java se révèle pour moi être un outil incontournable pour plusieurs raisons :
             <br>
             <br>
-            <h4>Les étapes de la veille technologique :</h4>
+
+            <h4>1. Polyvalence et domaines d’application</h4>
             <br>
-                <li>Définir les objectifs et le périmètre : Identifier les sujets ou technologies à surveiller</li>
-                <li>Rechercher des informations : Utiliser des sources variées comme les publications scientifiques, les forums spécialisés, les blogs, ou les conférences</li>
-                <li>Analyser les données collectées : Trier, structurer et interpréter les informations</li>
-                <li>Partager les résultats : Diffuser les informations pertinentes aux parties prenantes</li>
+            Java est utilisé dans de nombreux secteurs de l’informatique :
+            <br>
+                <li><strong>Applications web</strong> : avec des frameworks comme Spring ou Jakarta EE.</li>
+                <li><strong>Applications mobiles</strong> : Java est l’un des langages natifs pour Android.</li>
+                <li><strong>Logiciels d’entreprise</strong> : idéal pour les solutions robustes et évolutives.</li>
+                <li><strong>Objets connectés</strong> : via Java Embedded, adapté aux petits dispositifs.</li>
             <br>
             <br>
-            <p class="sujet_veille">
-                <strong>Le sujet que j'ai choisi pour ma veille technologique est le Développement Web.</strong>
-                <br>
-                <strong>L'outils que j'ai choisi pour développer ma veille est "Feedly".</strong>
-                <br>
-                <br>
-                <a href="https://www.globalsecuritymag.fr/la-cybersecurite-pierre-angulaire-du-systeme-bancaire-moderne.html">Sécurité Web bancaire</a>
-            </p>
+
+            <h4>2. Simplicité et robustesse</h4>
+            <br>
+            Java se distingue par une syntaxe claire et facile à comprendre, ce qui en fait un excellent choix pour apprendre la programmation orientée objet. 
+            Ses mécanismes tels que le ramasse-miettes (garbage collector) réduisent les risques d'erreurs mémoire, renforçant ainsi sa fiabilité.
+            <br>
+            <br>
+
+            <h4>3. Sécurité et réglementation</h4>
+            <br>
+            Java offre une sécurité renforcée grâce à sa machine virtuelle qui isole l’application du système sous-jacent. 
+            Cette caractéristique en fait un choix privilégié pour des environnements où la sécurité est critique, comme dans au Crédit Agricole Payment Services par exemple, où la protection des données est essentielle.
+            <br>
+            <br>
+
+            <h4>4. Communauté et ressources</h4>
+            <br>
+            Avec une vaste communauté active et des milliers de bibliothèques, Java offre des solutions prêtes à l’emploi pour répondre aux besoins des développeurs. 
+            Sa documentation et son écosystème facilitent la montée en compétences pour un étudiant en BTS SIO.
+            <br>
+            <br>
+
+            <h4>5. Java et l’UI/UX</h4>
+            <br>
+            Java intègre des bibliothèques comme JavaFX ou Swing, qui permettent de développer des interfaces graphiques. 
+            Bien que ces outils soient moins populaires que les technologies modernes, ils restent un point de départ solide pour comprendre la conception d’interfaces.
+            <br>
+            <br>
+        </p>
+        <p class="sujet_veille">
+            <br>
+            <br>
+            <strong>Je vais maintenant vous présenter les articles et sujets qui m'ont permis de me documenter à ce sujet.</strong>
+            <br>
+            <strong>Les outils que j'ai choisi pour développer ma veille technologique sont "Feedly", "Google Alert" et "Medium".</strong>
+            <br>
+            <br>
+            <a href="https://www.globalsecuritymag.fr/la-cybersecurite-pierre-angulaire-du-systeme-bancaire-moderne.html">Sécurité Web bancaire</a>
         </p>
     </div>
 
     <div class="bloc_secu">
-        <h3>Sécurité</h3>
+        <h3>Sujet 1 : Article 1</h3>
         <p>
             La sécurité en développement logiciel et web concerne les pratiques, outils et techniques permettant de protéger les systèmes, applications, et données contre les menaces telles que les cyberattaques, les failles de sécurité ou les vols d'informations.
             <br>
