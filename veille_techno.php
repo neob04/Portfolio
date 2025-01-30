@@ -40,7 +40,7 @@
             <h4>3. Sécurité et réglementation</h4>
             <br>
             Java offre une sécurité renforcée grâce à sa machine virtuelle qui isole l’application du système sous-jacent. 
-            Cette caractéristique en fait un choix privilégié pour des environnements où la sécurité est critique, comme dans au Crédit Agricole Payment Services par exemple, où la protection des données est essentielle.
+            Cette caractéristique en fait un choix privilégié pour des environnements où la sécurité est critique, comme au Crédit Agricole Payment Services par exemple, où la protection des données est essentielle.
             <br>
             <br>
 
@@ -66,36 +66,41 @@
             <strong>Les outils que j'ai choisi pour développer ma veille technologique sont "Feedly", "Google Alert" et "Medium".</strong>
             <br>
             <br>
-            <a href="https://www.globalsecuritymag.fr/la-cybersecurite-pierre-angulaire-du-systeme-bancaire-moderne.html">Sécurité Web bancaire</a>
         </p>
     </div>
 
     <div class="bloc_secu">
-        <h3>Sujet 1 : Article 1</h3>
-        <p>
-            La sécurité en développement logiciel et web concerne les pratiques, outils et techniques permettant de protéger les systèmes, applications, et données contre les menaces telles que les cyberattaques, les failles de sécurité ou les vols d'informations.
-            <br>
-            <br>
-            <h4>Objectifs clés :</h4>
-            <br>
-                <li>Protéger les données des utilisateurs (intégrité, confidentialité, disponibilité)</li>
-                <li>Identifier et corriger les vulnérabilités (ex : injections SQL, XSS, CSRF)</li>
-                <li>Respecter les normes et standards de sécurité comme OWASP ou ISO 27001</li>
-        </p>
+        <h3>Sécurité</h3>
+        <br>
+        <div class="articles">    
+            <p>
+                <li>
+                    <strong>Java 23 fait un bond en avant sur la sécurité : </strong>
+                    <br>
+                    Cet article détaille les améliorations de sécurité introduites dans Java 23, notamment les mises à jour des performances de chiffrement et l'ajout du support de Kerberos et PKI. 
+                    <br>
+                    <div class="liens_articles">
+                        <button class="boutons_articles" onclick="window.location.href='https://www.lemondeinformatique.fr/actualites/lire-java-23-fait-un-bond-en-avant-sur-la-securite-94818.html';">Lien vers l'article sur "Le Monde Informatique"</button> 
+                    </div>                    
+                    <br>
+                </li>
+                <li>
+                    <strong>Les nouveautés de Java 23 : partie 3 : </strong>
+                    <br>
+                    Ce troisième article d'une série se concentre sur les évolutions de la JVM HotSpot, des outils, des API et de la sécurité dans Java 23. 
+                    <br>
+                    <div class="liens_articles">
+                        <button class="boutons_articles" onclick="window.location.href='https://blog.sciam.fr/2024/11/05/nouveautes-java-23-partie3.html';">Lien vers l'article sur "Blog de SCIAM"</button> 
+                    </div>                    
+                    <br>
+                </li>
+            </p>
+        </div>
     </div>
 
     <div class="bloc_reglm">
         <h3>Réglementation</h3>
-        <p>
-            La réglementation désigne l'ensemble des lois et normes que doivent respecter les développeurs dans leurs projets. Ces règles couvrent la protection des données personnelles, les droits d'auteur, ou encore l'accessibilité numérique.
-            <br>
-            <br>
-            <h4>Objectifs clés :</h4>
-            <br>
-                <li>Respecter des lois comme le RGPD (Règlement Général sur la Protection des Données)</li>
-                <li>S'assurer que les applications soient accessibles (normes WCAG pour les personnes handicapées)</li>
-                <li>Gérer les licences des logiciels et frameworks utilisés (open source, propriétaires)</li>
-        </p>
+        
     </div>
 
     <div class="bloc_act_gen">

@@ -3,6 +3,44 @@
     margin-left: 4%;
 }
 
+/* Articles et Boutons des articles */
+.articles {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centre les boutons verticalement (si nécessaire) */
+    justify-content:left;
+}
+
+.liens_articles {
+    display: flex; /* Active le mode flexbox */
+    flex-direction: row;
+    align-items: center; /* Centre les boutons verticalement (si nécessaire) */
+    justify-content:left;
+    height: 100px; /* Facultatif, pour démontrer l'alignement vertical */
+
+}
+
+.boutons_articles {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #21c25d;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px;
+    font-size: 16px;
+    transition: background-color 1s ease, transform 0.2s ease;
+    border: 0px;
+}
+
+
+.boutons_articles:hover {
+    transform: translateY(-3px); /* Légère élévation */
+    box-shadow: 0px 10px 20px #01461a; /* Ombre plus grande pour l'effet 3D */
+}
+
 
 /* Bloc Veille Techno */
 .bloc_veille_techno {
@@ -11,6 +49,10 @@
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
+}
+
+.bloc_veille_techno h4 {
+    margin-left: 4%;
 }
 
 .sujet_veille {
