@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact | Portfolio - BF</title>
+    <link rel="stylesheet" href="assets/css/main.css?v=1.0"> <!-- CSS principal + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/responsive.css?v=1.0"> <!-- CSS responsive + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/specific.css?v=1.0"> <!-- CSS des spécificités + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/accueil.css?v=1.0"> <!-- CSS "accueil" + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/bts_sio.css?v=1.0"> <!-- CSS "bts sio" + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/ecole_&_entreprise.css?v=1.0"> <!-- CSS "école & Entreprise" + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/realisations.css?v=1.0"> <!-- CSS "réalisation" + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/projets.css?v=1.0"> <!-- CSS "projets" + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/veille_techno.css?v=1.0"> <!-- CSS "veille techno" + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/contact.css?v=1.0"> <!-- CSS "conctact" + force le navigateur à charger dernière version -->
+    <script src="assets/js/script.js?v=1.0" defer></script> <!-- Lien vers le fichier JavaScript + force le navigateur à charger dernière version -->
+</head>
+<body>
+    <header>
+        <div>
+            <a href="https://github.com/neob04/Portfolio.git"><img src="assets/images/logo_bf_black.png" alt="Logo BF" class="logo_bf_et"></a>
+        </div>
+        <nav class="en_tete">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="bts_sio.html">BTS SIO</a></li>
+                <li><a href="ecole_&_entreprise.html">École & Entreprise</a></li>
+                <li><a href="realisations.html">Réalisations</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="veille_techno.html">Veille Technologique</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contact -->
+        <section class="contact">
+            <h2>Contact</h2>
+            <div class="bloc_contact">
+                <form action="" method="post">
+                    <div class="form_group">
+                        <label for="label_nom">Nom</label>
+                        <input type="text" class="input_nom" id="nom" name="nom" placeholder="Saisir votre nom">
+                    </div>
+
+                    <div class="form_group">
+                        <label for="label_prenom">Prénom</label>
+                        <input type="text" class="input_prenom" id="prenom" name="prenom" placeholder="Saisir votre prénom">
+                    </div>
+                                
+                    <div class="form_group">
+                        <label for="label_email">Email</label>
+                        <input type="text" class="input_email" id="email" name="email" placeholder="Saisir votre email">
+                    </div>
+
+                    <div class="form_group">
+                        <label for="label_message">Message</label>
+                        <textarea class="form-control" id="description" name="description" rows="5" placeholder="Saisir le contenu du message"></textarea>
+                    </div>
+                    
+                    <div class="bloc_boutons_contact">
+                        <button type="submit" class="boutons_contact" value="mailform" name="submit">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bouton pour remonter en haut de page optionnel au final 
+    <a href="#" class="back-to-top">↑</a> -->
+
+    <footer>
+        <p>&copy; 2024 Baptiste FAOUËN. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>

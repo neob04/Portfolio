@@ -1,5 +1,27 @@
 /* Section Ecole & Entreprise */
 
+.bouton_clique_ici {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #21c25d;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 4px;
+    font-size: 16px;
+    transition: background-color 1s ease, transform 0.2s ease;
+    border: 0px;
+}
+
+
+.bouton_clique_ici:hover {
+    transform: translateY(-3px); /* Légère élévation */
+    box-shadow: 0px 10px 20px #01461a; /* Ombre plus grande pour l'effet 3D */
+}
+
+
 
 /* Bloc Ecole */
 .bloc_ecole {
@@ -10,6 +32,10 @@
     border-radius: 30px;
 }
 
+.desc_ensitech h3 {
+    margin: 0% 0% 0% 4%;
+}
+
 .com_ensitech {
     display: flex;
     flex-direction: row;
@@ -18,8 +44,22 @@
     text-align: center;
 }
 
+.com_ensitech p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 0%;
+}
+
 .logo_ensitech {
+    width: 17%;
     border-radius: 20px;
+}
+
+logo_ensitech:hover {
+    transform: translateY(-3px); /* Légère élévation */
+    box-shadow: 0px 10px 20px #01461a; /* Ombre plus grande pour l'effet 3D */
 }
 
 
@@ -38,6 +78,14 @@
     justify-content: space-evenly; /* Centrer éléments au sein de la div tout en laissant un espace */
     align-items: center;
     text-align: center;
+}
+
+.com_caps p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1%;
 }
 
 .logo_caps {

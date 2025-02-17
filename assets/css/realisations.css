@@ -10,6 +10,8 @@
     flex-direction: row;
 }
 
+
+
 .screen_real1 {
     width: 400px;
     border-radius: 20px;
@@ -83,6 +85,22 @@
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
+}
+
+.desc_prj_4 li {
+    margin-left: 10%;
+}
+
+.bloc_img_dm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_dm {
+    width: 100%;
+    border-radius: 10px;
 }
 
 

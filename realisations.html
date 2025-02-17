@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Réalisations | Portfolio - BF</title>
+    <link rel="stylesheet" href="assets/css/main.css?v=1.0"> <!-- CSS principal + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/responsive.css?v=1.0"> <!-- CSS responsive + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/specific.css?v=1.0"> <!-- CSS des spécificités + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/accueil.css?v=1.0"> <!-- CSS "accueil" + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/bts_sio.css?v=1.0"> <!-- CSS "bts sio" + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/ecole_&_entreprise.css?v=1.0"> <!-- CSS "école & Entreprise" + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/realisations.css?v=1.0"> <!-- CSS "réalisation" + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/projets.css?v=1.0"> <!-- CSS "projets" + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/veille_techno.css?v=1.0"> <!-- CSS "veille techno" + force le navigateur à charger dernière version -->
+    <link rel="stylesheet" href="assets/css/contact.css?v=1.0"> <!-- CSS "conctact" + force le navigateur à charger dernière version -->
+    <script src="assets/js/script.js?v=1.0" defer></script> <!-- Lien vers le fichier JavaScript + force le navigateur à charger dernière version -->
+</head>
+<body>
+    <header>
+        <div>
+            <a href="https://github.com/neob04/Portfolio.git"><img src="assets/images/logo_bf_black.png" alt="Logo BF" class="logo_bf_et"></a>
+        </div>
+        <nav class="en_tete">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="bts_sio.html">BTS SIO</a></li>
+                <li><a href="ecole_&_entreprise.html">École & Entreprise</a></li>
+                <li><a href="realisations.html">Réalisations</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="veille_techno.html">Veille Technologique</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Réalisations -->
+        <section class="realisations">
+            <h2>Mes Réalisations !</h2>
+            <div class="bloc_prj1">
+                <!-- Une image, un nom, une courte description (option), techno utilisé, redirection vers la page ou github projet (si en ligne) -->
+                <div class="gauche_desc_prj1">
+                    <h3>Portfolio</h3>
+                    <p>
+                        La création de ce Portfolio !
+                        <br>
+                        <br>
+                        <img class="screen_real1" src="assets/docs/realisations/screen_real1.png" alt="Page d'accueil - Portfolio">
+                        <br>
+                        <br>
+                    </p>
+                </div>
+                
+                <div class="droite_desc_prj1">
+                    <div class="liens_prj1">
+                        <button class="boutons_prj1" onclick="window.location.href='http://localhost/Portfolio/index.html';"> Consulter mon site </button> 
+                        <button class="boutons_prj1" onclick="window.location.href='https://github.com/neob04/Portfolio';"> Lien GitHub </button>
+                    </div>
+                    <div class="lang_prj1">
+                        <p>
+                            <br>
+                            <br>
+                            <i>HTML5 | CSS3 | Javascript</i>
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bloc_prj_2">
+                <h3>Projet d'introduction au responsive - ChatGPT</h3>
+                <p>
+                    Desc courte, une image, etc... + JOINDRE BOUTONS vers github au minumum
+                    <br>
+                    <br>
+                    <i>HTML5 | CSS3</i>
+                </p>
+            </div>
+
+            <div class="bloc_prj_3">
+                <h3>Injection SQL</h3>
+                <p>
+                    Projet réaliser dans le but de simuler une attaque par Injection SQL sur un formulaire de connexion factisse lié à une base de données en local.
+                    <br>
+                    <br>
+                    <i>PHP</i>
+                </p>
+            </div>
+
+            <div class="bloc_prj_4">
+                <h3>Gestion de Tickets - CAPS</h3>
+                <div class="desc_prj_4">
+                    <p>
+                        Gérer les demandes clients sur la plateforme CAPS NOW :
+                    </p>
+                    <ul>
+                        <li>Création de droits</li>
+                        <li>Modification de droits</li>
+                        <li>Réinitialisation de mot de passe</li>
+                        <li>Supression de droits</li>
+                    </ul>
+                    <br>
+                </div>
+                <div class="screen_real4">
+                    <div class="bloc_img_dm">
+                        <p><strong>Exemple de demandes en cours </strong> : </p>
+                        <img class="img_dm" src="assets/docs/realisations/Demande_en_cours_ouvert_CAPS_NOW.png" alt="Demandes en cours - CAPS NOW">
+                        <br>
+                        <br>
+                        <p><strong>Exemple de demandes fermées terminées</strong> : </p>
+                        <img class="img_dm" src="assets/docs/realisations/Demande_ferme_termine_CAPS_NOW.png" alt="Demandes en cours - CAPS NOW">
+                    </div>
+                        
+                </div>
+
+            </div>
+
+            <div class="bloc_prj_5">
+                <h3>Outils Excel - CAPS</h3>
+                <p>
+                    Création d'un outils sur Excel qui permet d'analyser et de comparer les données d'un formulaire de sécurité et de la plateforme
+                    d'habilitations du Groupe, afin de mettre à jour les informations sur la plateforme d'habilitations du Groupe.
+                    <br>
+                    <br>
+                    <i>VBA</i>
+                </p>
+            </div>
+
+            <div class="bloc_prj_6">
+                <h3>Tableau de bord de l'équipe - CAPS</h3>
+                <p>
+                    MAJ d'un tableau de bord mensuel sur les chiffres de l'équipe aussi bien sur la partie habilitation que sur la partie sécurité (Dossiers OSAL).
+                    <br>
+                    <br>
+                    <i>Exctraction de données via CAPS Habilitations et CAPS NOW</i>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bouton pour remonter en haut de page optionnel au final 
+    <a href="#" class="back-to-top">↑</a> -->
+
+    <footer>
+        <p>&copy; 2024 Baptiste FAOUËN. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
