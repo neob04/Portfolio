@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/veille_techno.css?v=1.0"> <!-- CSS "veille techno" + force le navigateur à charger dernière version -->
     <link rel="stylesheet" href="assets/css/contact.css?v=1.0"> <!-- CSS "conctact" + force le navigateur à charger dernière version -->
     <script src="assets/js/main.js?v=1.0" defer></script> <!-- Lien vers le fichier JavaScript + force le navigateur à charger dernière version -->
+    <script src="assets/js/contact.js?v=1.0" defer></script> <!-- Lien vers le fichier JavaScript Contact + force le navigateur à charger dernière version -->
 </head>
 <body>
     <header>
@@ -58,7 +59,7 @@
 
                     <div class="form_group">
                         <label for="label_message">Message</label>
-                        <textarea class="form-control" id="description" name="description" rows="5" placeholder="Saisir le contenu du message"></textarea>
+                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Saisir le contenu du message"></textarea>
                     </div>
                     
                     <div class="bloc_boutons_contact">
@@ -67,6 +68,8 @@
                 </form>
             </div>
         </section>
+        <!-- Ajout de la librairie EmailJS pour l'envoi de mail -->
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     </main>
 
     <!-- Bouton pour remonter en haut de page optionnel au final 
