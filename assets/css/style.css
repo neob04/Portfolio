@@ -176,6 +176,10 @@ footer {
     section {
         padding-top: 10px; /* Garder le même padding que par défaut */
     }
+
+    section h2 {
+        margin-top: 5px;  /* Ajout d'espace supplémentaire */
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -207,6 +211,10 @@ footer {
 
     section {
         padding-top: 10px; /* Garder le même padding que par défaut */
+    }
+
+    section h2 {
+        margin-top: 20px;  /* Encore plus d'espace pour très petits écrans */
     }
 }
 
