@@ -77,12 +77,14 @@ header nav ul li a.active {
 main {
     max-width: 1000px;
     width: 100%;
-    margin: 80px auto 0; /* Ajout de margin-top pour l'espace sous le header */
+    margin: 65px auto 0; /* Marge fixe */
+    padding: 0 15px;
 }
 
 /* Style pour chaque section du main */
 section {
     margin-bottom: 10px;
+    padding-top: 10px; /* Padding fixe */
 }
 
 section h1{
@@ -167,12 +169,12 @@ footer {
     }
 
     main {
-        margin-top: 40px; /* Ajuster la marge en fonction de la nouvelle hauteur du header */
-        padding: 10px;
+        margin-top: 65px; /* Garder la même marge que par défaut */
+        padding: 0 10px;
     }
 
     section {
-        padding-top: 15px; /* Encore plus petit sur tablette */
+        padding-top: 10px; /* Garder le même padding que par défaut */
     }
 }
 
@@ -199,12 +201,12 @@ footer {
     }
 
     main {
-        margin-top: 35px;
-        padding: 8px;
+        margin-top: 65px; /* Garder la même marge que par défaut */
+        padding: 0 8px;
     }
 
     section {
-        padding-top: 10px; /* Minimum de padding sur mobile */
+        padding-top: 10px; /* Garder le même padding que par défaut */
     }
 }
 
