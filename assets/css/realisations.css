@@ -1,4 +1,8 @@
 /* Section Réalisations */
+.titres_real {
+    text-align: right;
+}
+
 /* Bloc Projet 1 */
 .bloc_prj1 {
     margin-bottom: 20px;
@@ -70,27 +74,217 @@
 
 
 /* Bloc Projet 2 */
-.bloc_prj_2 {
+.bloc_prj2 {
     margin-bottom: 20px;
     background-color: #050505;
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.gauche_desc_prj2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.screen_real2 {
+    width: 100%;
+    max-width: 100%; /* Empêche l'image de déborder */
+    height: auto; /* Maintient le ratio de l'image */
+    border-radius: 20px;
+}
+
+.droite_desc_prj2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+/* Boutons et langages Projet 1 */
+.liens_prj2 {
+    display: flex; /* Active le mode flexbox */
+    flex-direction: row;
+    align-items: center; /* Centre les boutons verticalement (si nécessaire) */
+    justify-content: center;
+    text-align: center;
+    gap: 20%; /* Espace entre les boutons */
+    height: auto; /* Supprime la hauteur fixe */
+}
+
+.boutons_prj2 {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ff0000;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px; /* Réduit les marges */
+    font-size: 16px;
+    transition: background-color 1s ease, transform 0.2s ease;
+    border: 0px;
+}
+
+
+.boutons_prj2:hover {
+    transform: translateY(-3px); /* Légère élévation */
+    box-shadow: 0px 10px 20px #b40000; /* Ombre plus grande pour l'effet 3D */
+}
+
+.lang_prj2 {
+    margin-left: 40px;
 }
 
 
 /* Bloc Projet 3 */
-.bloc_prj_3 {
+.bloc_prj3 {
     margin-bottom: 20px;
     background-color: #050505;
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.gauche_desc_prj3 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.screen_real3 {
+    width: 100%;
+    max-width: 100%; /* Empêche l'image de déborder */
+    height: auto; /* Maintient le ratio de l'image */
+    border-radius: 20px;
+}
+
+.droite_desc_prj3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+/* Boutons et langages Projet 3 */
+.liens_prj3 {
+    display: flex; /* Active le mode flexbox */
+    flex-direction: row;
+    align-items: center; /* Centre les boutons verticalement (si nécessaire) */
+    justify-content: center;
+    text-align: center;
+    gap: 20%; /* Espace entre les boutons */
+    height: auto; /* Supprime la hauteur fixe */
+}
+
+.boutons_prj3 {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #21c25d;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px; /* Réduit les marges */
+    font-size: 16px;
+    transition: background-color 1s ease, transform 0.2s ease;
+    border: 0px;
+}
+
+
+.boutons_prj3:hover {
+    transform: translateY(-3px); /* Légère élévation */
+    box-shadow: 0px 10px 20px #01461a; /* Ombre plus grande pour l'effet 3D */
+}
+
+.lang_prj3 {
+    margin-left: 40px;
 }
 
 
 /* Bloc Projet 4 */
-.bloc_prj_4 {
+.bloc_prj4 {
+    margin-bottom: 20px;
+    background-color: #050505;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.gauche_desc_prj4 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.screen_real4 {
+    width: 100%;
+    max-width: 100%; /* Empêche l'image de déborder */
+    height: auto; /* Maintient le ratio de l'image */
+    border-radius: 20px;
+}
+
+.droite_desc_prj4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+/* Boutons et langages Projet 4 */
+.liens_prj4 {
+    display: flex; /* Active le mode flexbox */
+    flex-direction: row;
+    align-items: center; /* Centre les boutons verticalement (si nécessaire) */
+    justify-content: center;
+    text-align: center;
+    gap: 20%; /* Espace entre les boutons */
+    height: auto; /* Supprime la hauteur fixe */
+}
+
+.boutons_prj4 {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #21c25d;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px; /* Réduit les marges */
+    font-size: 16px;
+    transition: background-color 1s ease, transform 0.2s ease;
+    border: 0px;
+}
+
+
+.boutons_prj4:hover {
+    transform: translateY(-3px); /* Légère élévation */
+    box-shadow: 0px 10px 20px #01461a; /* Ombre plus grande pour l'effet 3D */
+}
+
+.lang_prj4 {
+    margin-left: 40px;
+}
+
+
+/* Bloc Projet 5 */
+.bloc_prj5 {
     margin-bottom: 20px;
     background-color: #050505;
     padding: 15px;
@@ -98,7 +292,7 @@
     border-radius: 30px;
 }
 
-.desc_prj_4 li {
+.desc_prj5 li {
     margin-left: 10%;
 }
 
@@ -115,24 +309,25 @@
 }
 
 
-/* Bloc Projet 5 */
-.bloc_prj_5 {
-    margin-bottom: 20px;
-    background-color: #050505;
-    padding: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 30px;
-}
-
-
 /* Bloc Projet 6 */
-.bloc_prj_6 {
+.bloc_prj6 {
     margin-bottom: 20px;
     background-color: #050505;
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
 }
+
+
+/* Bloc Projet 7 */
+.bloc_prj7 {
+    margin-bottom: 20px;
+    background-color: #050505;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
 
 /* Media Queries pour le responsive */
 @media screen and (max-width: 768px) {
@@ -160,10 +355,103 @@
     .lang_prj1 {
         text-align: center;
     }
+
+    /* Responsive Projet 2 */
+    .bloc_prj2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .screen_real2 {
+        width: 100%;
+    }
+
+    .gauche_desc_prj2 {
+        width: 100%;
+    }
+
+    .droite_desc_prj2 {
+        width: 100%;
+    }
+
+    .liens_prj2 {
+        padding: 0px 0;
+    }
+
+    .lang_prj2 {
+        text-align: center;
+    }
+
+    /* Responsive Projet 3 */
+    .bloc_prj3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .screen_real3 {
+        width: 100%;
+    }
+
+    .gauche_desc_prj3 {
+        width: 100%;
+    }
+
+    .droite_desc_prj3 {
+        width: 100%;
+    }
+
+    .liens_prj3 {
+        padding: 0px 0;
+    }
+
+    .lang_prj3 {
+        text-align: center;
+    }
+
+    /* Responsive Projet 4 */
+    .bloc_prj4 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .screen_real4 {
+        width: 100%;
+    }
+
+    .gauche_desc_prj4 {
+        width: 100%;
+    }
+
+    .droite_desc_prj4 {
+        width: 100%;
+    }
+
+    .liens_prj4 {
+        padding: 0px 0;
+    }
+
+    .lang_prj4 {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .boutons_prj1 {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .boutons_prj2 {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .boutons_prj3 {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .boutons_prj4 {
         width: 100%;
         max-width: 250px;
     }
