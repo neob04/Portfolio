@@ -122,7 +122,7 @@
     display: inline-block;
     padding: 10px 20px;
     background-color: #000000;
-    color: #ff0000;
+    color: #21c25d;
     text-decoration: none;
     border-radius: 10px;
     text-align: center;
@@ -135,7 +135,7 @@
 
 .boutons_prj2:hover {
     transform: translateY(-3px); /* Légère élévation */
-    box-shadow: 0px 10px 20px #b40000; /* Ombre plus grande pour l'effet 3D */
+    box-shadow: 0px 10px 20px #01461a; /* Ombre plus grande pour l'effet 3D */
 }
 
 .lang_prj2 {
