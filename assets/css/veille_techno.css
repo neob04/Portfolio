@@ -1,7 +1,7 @@
 /* Section Veille Technologique */
 .titre_java {
-    padding: 0% 0% 0% 40%;
     font-size: 4rem;
+    text-align: center;
 }
 
 .veille_techno li {

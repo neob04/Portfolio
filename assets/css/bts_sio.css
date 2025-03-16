@@ -129,7 +129,7 @@
 @media screen and (max-width: 480px) {
     /* Responsive très petits écrans */
     .logo_bts_sio {
-        width: 60%;
+        width: 20%;
     }
 
     .bouton_clique_ici {
@@ -148,7 +148,4 @@
         padding: 8px;
     }
 
-    h2, h3 {
-        font-size: 1.2em;
-    }
 }
