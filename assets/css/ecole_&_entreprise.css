@@ -32,9 +32,6 @@
     border-radius: 30px;
 }
 
-.desc_ensitech h3 {
-    margin: 0% 0% 0% 4%;
-}
 
 .com_ensitech {
     display: flex;
@@ -89,8 +86,84 @@ logo_ensitech:hover {
 }
 
 .logo_caps {
-    width: 14%;
+    width: 10%;
     border-radius: 20px;
+}
+
+/* Media Queries pour le responsive */
+@media screen and (max-width: 768px) {
+    /* Responsive Bloc École */
+    .com_ensitech {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .logo_ensitech {
+        width: 30%;
+    }
+
+    .desc_ensitech h3 {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    /* Responsive Bloc Entreprise */
+    .com_caps {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .desc_caps h3 {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .logo_caps {
+        width: 20%;
+    }
+
+    .bouton_clique_ici {
+        width: 80%;
+        max-width: 250px;
+        margin: 10px auto;
+    }
+
+    .bloc_ecole, .bloc_entreprise {
+        padding: 10px;
+        margin: 10px 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Responsive très petits écrans */
+    .logo_ensitech {
+        width: 25%;
+    }
+
+    .logo_caps {
+        width: 15%;
+    }
+
+    .bouton_clique_ici {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .bloc_ecole, .bloc_entreprise {
+        border-radius: 15px;
+        padding: 8px;
+    }
+
+    .com_ensitech p, .com_caps p {
+        font-size: 0.9em;
+        margin: 5px 0;
+    }
+
+    h2, h3 {
+        font-size: 1.2em;
+        text-align: center;
+    }
 }
 
 
