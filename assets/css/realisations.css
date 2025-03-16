@@ -1,7 +1,39 @@
 /* Section Réalisations */
-.titres_real {
-    text-align: right;
+.bloc_titre_real {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #111111;
+    padding-bottom: 5px;
+    margin-bottom: 20px; /* Ajoute de l'espace après la ligne */
 }
+
+.bloc_titre_real h2 {
+    border-bottom: none; /* Supprime le soulignement du titre */
+    margin: 0; /* Supprime les marges par défaut du h2 */
+}
+
+.bouton_tab_comp {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #21c25d;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px; /* Réduit les marges */
+    font-size: 10px;
+    transition: background-color 1s ease, transform 0.2s ease;
+    border: 0px;
+}
+
+
+.bouton_tab_comp:hover {
+    transform: translateY(-3px); /* Légère élévation */
+    box-shadow: 0px 10px 20px #01461a; /* Ombre plus grande pour l'effet 3D */
+}
+
 
 /* Bloc Projet 1 */
 .bloc_prj1 {
@@ -304,7 +336,7 @@
 }
 
 .img_dm {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 
