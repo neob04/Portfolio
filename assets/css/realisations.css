@@ -521,8 +521,7 @@
     }
 
     .bouton_tab_comp {
-        width: 100%;
-        font-size: 14px;
+        width: 40%;
     }
 
     .bloc_prj5, .bloc_prj6, .bloc_prj7 {
@@ -531,8 +530,8 @@
     }
 
     .desc_prj5 li {
-        margin-left: 0;
-        padding: 0 10px;
+        margin-left: 40px;
+        font-size: 0.9em;
     }
 
     .img_dm {
