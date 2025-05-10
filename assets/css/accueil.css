@@ -11,7 +11,9 @@
 .photo_accueil {
     width: 40%;
     border-radius: 50%;
-
+    height: auto;
+    flex-shrink: 0;
+    object-fit: cover;
 }
 
 
@@ -52,4 +54,74 @@
 .boutons_accueil:hover {
     transform: translateY(-3px); /* Légère élévation */
     box-shadow: 0px 10px 20px #01461a; /* Ombre plus grande pour l'effet 3D */
+}
+
+
+/* Tablettes (jusqu'à 768px) */
+@media screen and (max-width: 768px) {
+    .bloc_accueil {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .photo_accueil {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .desc_etudiant {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .liens_accueil {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .boutons_accueil {
+        margin: 10px 0;
+        width: 80%;
+    }
+}
+
+
+
+
+
+/* Mobiles (jusqu'à 480px) */
+@media screen and (max-width: 480px) {
+    .bloc_accueil {
+        padding: 8px;
+        margin: 10px;
+    }
+
+    .photo_accueil {
+        width: 80%;
+    }
+
+    .boutons_accueil {
+        width: 90%;
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .desc_etudiant {
+        font-size: 0.9em;
+    }
+}
+
+/* Très petits écrans (jusqu'à 320px) */
+@media screen and (max-width: 320px) {
+    .photo_accueil {
+        width: 95%;
+    }
+
+    .boutons_accueil {
+        width: 100%;
+        font-size: 12px;
+        padding: 6px 12px;
+    }
 }

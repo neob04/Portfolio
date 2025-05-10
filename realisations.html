@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Réalisations | Portfolio - BF</title>
+    <title>Réalisations | Portfolio - Baptiste FAOUËN</title>
+    <meta name="description" content="Découvrez mes réalisations professionnelles au sein de CAPS et mes projets personnels.">
+    <meta property="og:title" content="Réalisations | Portfolio - Baptiste Faouën">
+    <meta property="og:description" content="Portfolio, projets web et réalisations professionnelles - Découvrez mes compétences en développement à travers mes différents projets">
+    <meta property="og:image" content="https://neob04.github.io/Portfolio/assets/images/logo_bf_black.png">
+    <meta property="og:url" content="https://neob04.github.io/Portfolio/realisations.html">
+    <meta property="og:type" content="website">
+    <meta name="keywords" content="portfolio développeur, projets web, réalisations informatiques, CAPS NOW, gestion tickets, outils Excel VBA, tableau de bord, injection SQL, responsive design, HTML5, CSS3, JavaScript, PHP, Baptiste Faouën, BTS SIO SLAM, développement web, projets étudiants, GitHub projects, gestion habilitations, sécurité informatique, développement full-stack, réalisations techniques, expérience professionnelle">
+    <link rel="icon" type="image/png" href="assets/images/logo_bf_black.png">
     <link rel="stylesheet" href="assets/css/style.css?v=1.0"> <!-- CSS principal + force le navigateur à charger dernière version -->
     <link rel="stylesheet" href="assets/css/responsive.css?v=1.0"> <!-- CSS responsive + force le navigateur à charger dernière version -->
     <link rel="stylesheet" href="assets/css/specific.css?v=1.0"> <!-- CSS des spécificités + force le navigateur à charger dernière version -->
@@ -27,8 +35,8 @@
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="bts_sio.html">BTS SIO</a></li>
                 <li><a href="ecole_&_entreprise.html">École & Entreprise</a></li>
-                <li><a href="realisations.html">Réalisations</a></li>
-                <li><a href="projets.html">Projets</a></li>
+                <li><a href="realisations.html">Réalisations (E5)</a></li>
+                <li><a href="projets.html">Projets (E6)</a></li>
                 <li><a href="veille_techno.html">Veille Technologique</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -38,24 +46,26 @@
     <main>
         <!-- Réalisations -->
         <section class="realisations">
-            <h2>Mes Réalisations !</h2>
+            <div class="bloc_titre_real">
+                <h2>Mes Réalisations !</h2>
+                <button class="bouton_tab_comp" onclick="window.open('assets/docs/realisations/Baptiste_FAOUEN_BTS_SIO_Annexe_8_1_Tableau_de_synthese_Epreuve_E5_BTS_SIO_2025.xlsx', '_blank')">
+                    Tableau de synthèse
+                </button>
+            </div>
             <div class="bloc_prj1">
                 <!-- Une image, un nom, une courte description (option), techno utilisé, redirection vers la page ou github projet (si en ligne) -->
                 <div class="gauche_desc_prj1">
-                    <h3>Portfolio</h3>
-                    <p>
-                        La création de ce Portfolio !
-                        <br>
-                        <br>
-                        <img class="screen_real1" src="assets/docs/realisations/screen_real1.png" alt="Page d'accueil - Portfolio">
-                        <br>
-                        <br>
-                    </p>
+                    <h3>My Portfolio</h3>
+                    <br>
+                    <p> La création de ce Portfolio :) </p>
+                    <br>
+                    <img class="screen_real1" src="assets/docs/realisations/screen_real1.png" alt="Page d'accueil - Portfolio">   
+                    <br>
                 </div>
                 
                 <div class="droite_desc_prj1">
                     <div class="liens_prj1">
-                        <button class="boutons_prj1" onclick="window.open('http://localhost/Portfolio/index.html', '_blank')">
+                        <button class="boutons_prj1" onclick="window.open('https://neob04.github.io/Portfolio/index.html', '_blank')">
                             Consulter mon site
                         </button> 
                         <button class="boutons_prj1" onclick="window.open('https://github.com/neob04/Portfolio', '_blank')">
@@ -65,38 +75,104 @@
                     <div class="lang_prj1">
                         <p>
                             <br>
-                            <br>
                             <i>HTML5 | CSS3 | Javascript</i>
-                            <br>
                             <br>
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="bloc_prj_2">
-                <h3>Projet d'introduction au responsive - ChatGPT</h3>
-                <p>
-                    Desc courte, une image, etc... + JOINDRE BOUTONS vers github au minumum
+            <div class="bloc_prj2">
+                <div class="gauche_desc_prj1">
+                    <h3>Responsive & SEO - ChatGPT</h3>
                     <br>
+                    <p>Site web réalisé en première année de BTS SIO afin de se familiariser avec les notions de responsive et de SEO.</p>
                     <br>
-                    <i>HTML5 | CSS3</i>
-                </p>
+                    <img class="screen_real1" src="assets/docs/realisations/screen_chatgpt_website.png" alt="Responsive et SEO - ChatGPT">   
+                    <br>
+                </div>
+                
+                <div class="droite_desc_prj2">
+                    <div class="liens_prj2">
+                        <button class="boutons_prj2" onclick="window.open('https://neob04.github.io/chatgpt-seo-responsive-site/', '_blank')">
+                            Consulter mon site
+                        </button> 
+                        <button class="boutons_prj2" onclick="window.open('https://github.com/neob04/chatgpt-seo-responsive-site', '_blank')">
+                            Lien GitHub
+                        </button>
+                    </div>
+                    <div class="lang_prj2">
+                        <p>
+                            <br>
+                            <i>HTML5 | CSS3</i>
+                            <br>
+                        </p>
+                    </div>
+                </div>
             </div>
 
-            <div class="bloc_prj_3">
-                <h3>Injection SQL</h3>
-                <p>
-                    Projet réaliser dans le but de simuler une attaque par Injection SQL sur un formulaire de connexion factisse lié à une base de données en local.
+            <div class="bloc_prj3">
+                <div class="gauche_desc_prj3">
+                    <h3>Injection SQL</h3>
                     <br>
+                    <p>Projet réalisé dans le but de simuler une attaque par Injection SQL sur un formulaire de connexion factisse lié à une base de données en local.</p>
                     <br>
-                    <i>PHP</i>
-                </p>
+                    <img class="screen_real3" src="assets/docs/realisations/screen_SQLi_local_test.png" alt="Injection SQL">   
+                    <br>
+                </div>
+                
+                <div class="droite_desc_prj3">
+                    <div class="liens_prj3">
+                        <button class="boutons_prj3" onclick="window.open('https://neob04.github.io/SQLi-local-test/', '_blank')">
+                            Consulter la doc
+                        </button> 
+                        <button class="boutons_prj3" onclick="window.open('https://github.com/neob04/SQLi-local-test', '_blank')">
+                            Lien GitHub
+                        </button>
+                    </div>
+                    <div class="lang_prj3">
+                        <p>
+                            <br>
+                            <i>PHP | HTML5 | CSS3</i>
+                            <br>
+                        </p>
+                    </div>
+                </div>
             </div>
 
-            <div class="bloc_prj_4">
+            <div class="bloc_prj4">
+                <div class="gauche_desc_prj4">
+                    <h3>DDOS Test Python</h3>
+                    <br>
+                    <p>Projet de test réalisé dans le but de simuler une attaque en déni de service (DDOS) sur un site web en local (XAMPP).</p>
+                    <br>
+                    <img class="screen_real4" src="assets/docs/realisations/screen_ddos_test_python.png" alt="DDOS Test Python">   
+                    <br>
+                </div>
+                
+                <div class="droite_desc_prj4">
+                    <div class="liens_prj4">
+                        <button class="boutons_prj4" onclick="window.open('https://neob04.github.io/ddos-test-python/', '_blank')">
+                            Consulter la doc
+                        </button> 
+                        <button class="boutons_prj4" onclick="window.open('https://github.com/neob04/ddos-test-python/', '_blank')">
+                            Lien GitHub
+                        </button>
+                    </div>
+                    <div class="lang_prj4">
+                        <p>
+                            <br>
+                            <i>Python3, PHP, CSS</i>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bloc_prj5">
                 <h3>Gestion de Tickets - CAPS</h3>
-                <div class="desc_prj_4">
+                <br>
+                <div class="desc_prj5">
                     <p>
                         Gérer les demandes clients sur la plateforme CAPS NOW :
                     </p>
@@ -108,39 +184,70 @@
                     </ul>
                     <br>
                 </div>
-                <div class="screen_real4">
-                    <div class="bloc_img_dm">
-                        <p><strong>Exemple de demandes en cours </strong> : </p>
-                        <img class="img_dm" src="assets/docs/realisations/Demande_en_cours_ouvert_CAPS_NOW.png" alt="Demandes en cours - CAPS NOW">
-                        <br>
-                        <br>
-                        <p><strong>Exemple de demandes fermées terminées</strong> : </p>
-                        <img class="img_dm" src="assets/docs/realisations/Demande_ferme_termine_CAPS_NOW.png" alt="Demandes en cours - CAPS NOW">
-                    </div>
-                        
+                <div class="bloc_img_dm">
+                    <p><strong>Demandes en cours </strong> : </p>
+                    <img class="img_dm" src="assets/docs/realisations/Demande_en_cours_ouvert_CAPS_NOW.png" alt="Demandes en cours - CAPS NOW">
+                    <br>
+                    <br>
+                    <p><strong>Demandes fermées terminées</strong> : </p>
+                    <img class="img_dm" src="assets/docs/realisations/Demande_ferme_termine_CAPS_NOW.png" alt="Demandes fermées terminées - CAPS NOW">
+                    <br>
+                    <br>
+                    <p><strong>Demande Type (1/2)</strong> : </p>
+                    <img class="img_dm" src="assets/docs/realisations/Type_demande_p1.png" alt="Demande Type (1/2) - CAPS NOW">
+                    <br>
+                    <br>
+                    <p><strong>Demande Type (2/2)</strong> : </p>
+                    <img class="img_dm" src="assets/docs/realisations/Type_demande_p2.png" alt="Demandes Type (2/2) - CAPS NOW">
                 </div>
-
             </div>
 
-            <div class="bloc_prj_5">
-                <h3>Outils Excel - CAPS</h3>
-                <p>
-                    Création d'un outils sur Excel qui permet d'analyser et de comparer les données d'un formulaire de sécurité et de la plateforme
-                    d'habilitations du Groupe, afin de mettre à jour les informations sur la plateforme d'habilitations du Groupe.
+            <div class="bloc_prj6">
+                <h3>Outil Excel - CAPS</h3>
+                <br>
+                <div class="desc_prj5">
+                    <p>
+                        Création d'un outil sur Excel <i>(en VBA)</i> qui permet d'analyser et de comparer les données d'un formulaire de sécurité et de la plateforme
+                        d'habilitations du Groupe, afin de mettre à jour les informations sur la plateforme d'habilitations du Groupe.
+                        <br>
+                        <br>  
+                    </p>
+                </div>
+                <div class="bloc_img_dm">
+                    <p><strong>Accueil de l'outil</strong> : </p>
+                    <img class="img_dm" src="assets/docs/realisations/Accueil_outil_excel.png" alt="Accueil Outil Excel - CAPS">
                     <br>
                     <br>
-                    <i>VBA</i>
-                </p>
+                    <p><strong>Outil Ouvert</strong> : </p>
+                    <img class="img_dm" src="assets/docs/realisations/Outil_ouvert_excel.png" alt="Outil Excel Ouvert - CAPS">
+                    <br>
+                    <br>
+                    <p><strong>Fichier Généré</strong> : </p>
+                    <img class="img_dm" src="assets/docs/realisations/Exemple_fichier_genere_excel.png" alt="Fichier Généré de l'Outil Excel - CAPS">
+                </div>
             </div>
 
-            <div class="bloc_prj_6">
-                <h3>Tableau de bord de l'équipe - CAPS</h3>
-                <p>
-                    MAJ d'un tableau de bord mensuel sur les chiffres de l'équipe aussi bien sur la partie habilitation que sur la partie sécurité (Dossiers OSAL).
+            <div class="bloc_prj7">
+                <h3>Tableau de bord sur Power BI - CAPS</h3>
+                <br>
+                <div class="desc_prj5">    
+                    <p>
+                        MAJ d'un tableau de bord mensuel sur les chiffres de l'équipe aussi bien sur la partie habilitation que sur la partie sécurité (Dossiers OSAL).
+                        <br>
+                        <br>
+                        <i>Exctraction de données via CAPS Habilitations et CAPS NOW</i>
+                        <br>
+                        <br>
+                    </p>
+                </div>
+                <div class="bloc_img_dm">
+                    <p><strong>TdB Power Bi</strong> : </p>
+                    <img class="img_dm" src="assets/docs/realisations/Dossiers_TdB.png" alt="Tableau de bord de l'équipe - CAPS">
                     <br>
                     <br>
-                    <i>Exctraction de données via CAPS Habilitations et CAPS NOW</i>
-                </p>
+                    <p><strong>Tableau de bord (suite)</strong> : </p>
+                    <img class="img_dm" src="assets/docs/realisations/Faits_marquants_TdB.png" alt="Tableau de bord de l'équipe - CAPS">
+                </div>
             </div>
         </section>
     </main>

@@ -87,3 +87,65 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
 }
+
+/* Media Queries pour le responsive */
+@media screen and (max-width: 768px) {
+    /* Responsive Bloc BTS SIO */
+    .com_bts_sio {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .bts_sio h3 {
+        text-align: center;
+    }
+
+    .logo_bts_sio {
+        width: 30%;
+    }
+
+    .bouton_clique_ici {
+        width: 80%;
+        max-width: 250px;
+        margin: 10px auto;
+    }
+
+    /* Responsive Bloc Option */
+    .bloc_opt_bts_sio {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .bloc_opt_bts_sio ul li {
+        margin-left: 20px;
+    }
+
+    .opt_slam, .opt_sisr {
+        padding: 10px;
+        margin: 10px 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Responsive très petits écrans */
+    .logo_bts_sio {
+        width: 20%;
+    }
+
+    .bouton_clique_ici {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .bloc_opt_bts_sio ul li {
+        margin-left: 40px;
+        font-size: 0.9em;
+    }
+
+    .bloc_bts_sio, .opt_slam, .opt_sisr {
+        border-radius: 15px;
+        padding: 8px;
+    }
+
+}

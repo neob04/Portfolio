@@ -1,10 +1,10 @@
+// HEADER
 // En tete actifs //
 document.querySelectorAll('header nav ul li a').forEach(link => {
   if (link.pathname === window.location.pathname) {
       link.classList.add('active');
     }
 });
-
 
 // Sélectionner tous les liens des onglets
 const tabs = document.querySelectorAll('.tab');

@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact | Portfolio - BF</title>
+    <title>Contact | Portfolio - Baptiste FAOUËN</title>
+    <meta name="description" content="Contactez moi ! Voici le formulaire de contact pour toute demande de collaboration, alternance ou informations.">
+    <meta property="og:title" content="Contact | Portfolio - Baptiste Faouën">
+    <meta property="og:description" content="contactez-moi ! Je suis actuellement étudiant développeur en BTS SIO SLAM">
+    <meta property="og:image" content="https://neob04.github.io/Portfolio/assets/images/logo_bf_black.png">
+    <meta property="og:url" content="https://neob04.github.io/Portfolio/contact.html">
+    <meta property="og:type" content="website">
+    <meta name="keywords" content="Baptiste Faouën, FAOUËN, contact Baptiste Faouën, recrutement développeur, développement, alternance informatique, contact BTS SIO, développeur junior, opportunités professionnelles, collaboration projet web, contact portfolio, développeur web junior, alternance, alternance développeur, contact étudiant développeur, recrutement junior, informatique, contact professionnel IT, développement application, contact portfolio développeur">
+    <link rel="icon" type="image/png" href="assets/images/logo_bf_black.png">
     <link rel="stylesheet" href="assets/css/style.css?v=1.0"> <!-- CSS principal + force le navigateur à charger dernière version -->
     <link rel="stylesheet" href="assets/css/responsive.css?v=1.0"> <!-- CSS responsive + force le navigateur à charger dernière version -->
     <link rel="stylesheet" href="assets/css/specific.css?v=1.0"> <!-- CSS des spécificités + force le navigateur à charger dernière version -->
@@ -16,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/veille_techno.css?v=1.0"> <!-- CSS "veille techno" + force le navigateur à charger dernière version -->
     <link rel="stylesheet" href="assets/css/contact.css?v=1.0"> <!-- CSS "conctact" + force le navigateur à charger dernière version -->
     <script src="assets/js/main.js?v=1.0" defer></script> <!-- Lien vers le fichier JavaScript + force le navigateur à charger dernière version -->
+    <script src="assets/js/contact.js?v=1.0" defer></script> <!-- Lien vers le fichier JavaScript Contact + force le navigateur à charger dernière version -->
 </head>
 <body>
     <header>
@@ -27,8 +36,8 @@
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="bts_sio.html">BTS SIO</a></li>
                 <li><a href="ecole_&_entreprise.html">École & Entreprise</a></li>
-                <li><a href="realisations.html">Réalisations</a></li>
-                <li><a href="projets.html">Projets</a></li>
+                <li><a href="realisations.html">Réalisations (E5)</a></li>
+                <li><a href="projets.html">Projets (E6)</a></li>
                 <li><a href="veille_techno.html">Veille Technologique</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -58,7 +67,7 @@
 
                     <div class="form_group">
                         <label for="label_message">Message</label>
-                        <textarea class="form-control" id="description" name="description" rows="5" placeholder="Saisir le contenu du message"></textarea>
+                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Saisir le contenu du message"></textarea>
                     </div>
                     
                     <div class="bloc_boutons_contact">
@@ -67,6 +76,8 @@
                 </form>
             </div>
         </section>
+        <!-- Ajout de la librairie EmailJS pour l'envoi de mail -->
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     </main>
 
     <!-- Bouton pour remonter en haut de page optionnel au final 
