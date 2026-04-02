@@ -13,13 +13,16 @@
 }
 
 /* Effet au survol */
-header nav ul li a:hover {
+header nav ul li a:hover,
+header nav ul li summary:hover,
+header nav ul li summary:focus-visible {
     transform: scale(1.02); /* Agrandit légèrement l'onglet sur hover */
     text-decoration: underline; /* Ajoute un soulignement sous l'onglet sur hover */
 }
 
 /* Style pour l'onglet actif */
-header nav ul li a.active {
+header nav ul li a.active,
+header nav ul li summary.active {
     transform: scale(1.04); /* Agrandit davantage l'onglet actif */
     text-decoration: underline; /* Soulignement visible pour l'onglet actif */
 }

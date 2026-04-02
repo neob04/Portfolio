@@ -56,6 +56,7 @@ header nav ul {
 
 header nav ul li {
     margin: 0 15px;
+    position: relative;
 }
 
 /* Modifier la partie des liens de navigation */
@@ -65,6 +66,74 @@ header nav ul li a {
     font-size: 1.1rem;
     font-weight: bold;
     display: inline-block; /* Important pour la transformation */
+}
+
+.menu-deroulant {
+    list-style: none;
+}
+
+.menu-deroulant > summary {
+    color: #21c25d;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    list-style: none;
+}
+
+.menu-deroulant > summary::-webkit-details-marker {
+    display: none;
+}
+
+.menu-deroulant > summary::after {
+    content: " ▾";
+    font-size: 0.8em;
+}
+
+.menu-deroulant > summary:hover,
+.menu-deroulant > summary:focus-visible {
+    transform: scale(1.02);
+    text-decoration: underline;
+}
+
+.menu-deroulant > .sous-menu {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: calc(100% - 2px);
+    left: 0;
+    min-width: 220px;
+    background-color: #000000;
+    border: 1px solid #111111;
+    border-radius: 8px;
+    padding: 8px 0;
+    margin-top: 0;
+    z-index: 1100;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+}
+
+.menu-deroulant > .sous-menu li {
+    margin: 0;
+}
+
+.menu-deroulant > .sous-menu li a {
+    display: block;
+    padding: 8px 16px;
+    font-size: 0.95rem;
+    white-space: nowrap;
+}
+
+.menu-deroulant:hover > .sous-menu,
+.menu-deroulant:focus-within > .sous-menu,
+.menu-deroulant[open] > .sous-menu {
+    display: block;
+}
+
+.menu-deroulant > .sous-menu li a:hover,
+.menu-deroulant > .sous-menu li a.active {
+    transform: none;
+    background-color: #111111;
 }
 
 header nav ul li a:hover,
@@ -137,6 +206,10 @@ footer {
         font-size: 1rem;
     }
 
+    .menu-deroulant > summary {
+        font-size: 1rem;
+    }
+
     header div img {
         height: 32px;
     }
@@ -163,9 +236,25 @@ footer {
         font-size: 0.9rem;
     }
 
+    .menu-deroulant > summary {
+        font-size: 0.9rem;
+    }
+
+    .menu-deroulant > .sous-menu {
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 200px;
+    }
+
     header nav ul li a:hover,
     header nav ul li a.active {
         transform: scale(1.1); /* Effet plus subtil sur mobile */
+    }
+
+    .menu-deroulant > summary:hover,
+    .menu-deroulant > summary:focus-visible {
+        transform: scale(1.02);
+        text-decoration: underline;
     }
 
     main {
@@ -199,9 +288,26 @@ footer {
         font-size: 0.8rem;
     }
 
+    .menu-deroulant > summary {
+        font-size: 0.8rem;
+    }
+
+    .menu-deroulant > .sous-menu {
+        left: auto;
+        right: 0;
+        transform: none;
+        min-width: 180px;
+    }
+
     header nav ul li a:hover,
     header nav ul li a.active {
         transform: scale(1.05);
+    }
+
+    .menu-deroulant > summary:hover,
+    .menu-deroulant > summary:focus-visible {
+        transform: scale(1.02);
+        text-decoration: underline;
     }
 
     main {
