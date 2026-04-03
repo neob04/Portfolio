@@ -56,6 +56,7 @@ header nav ul {
 
 header nav ul li {
     margin: 0 15px;
+    position: relative;
 }
 
 /* Modifier la partie des liens de navigation */
@@ -65,6 +66,74 @@ header nav ul li a {
     font-size: 1.1rem;
     font-weight: bold;
     display: inline-block; /* Important pour la transformation */
+}
+
+.menu-deroulant {
+    list-style: none;
+}
+
+.menu-deroulant > summary {
+    color: #21c25d;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    list-style: none;
+}
+
+.menu-deroulant > summary::-webkit-details-marker {
+    display: none;
+}
+
+.menu-deroulant > summary::after {
+    content: " ▾";
+    font-size: 0.8em;
+}
+
+.menu-deroulant > summary:hover,
+.menu-deroulant > summary:focus-visible {
+    transform: scale(1.02);
+    text-decoration: underline;
+}
+
+.menu-deroulant > .sous-menu {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: calc(100% - 2px);
+    left: 0;
+    min-width: 220px;
+    background-color: #000000;
+    border: 1px solid #111111;
+    border-radius: 8px;
+    padding: 8px 0;
+    margin-top: 0;
+    z-index: 1100;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+}
+
+.menu-deroulant > .sous-menu li {
+    margin: 0;
+}
+
+.menu-deroulant > .sous-menu li a {
+    display: block;
+    padding: 8px 16px;
+    font-size: 0.95rem;
+    white-space: nowrap;
+}
+
+.menu-deroulant:hover > .sous-menu,
+.menu-deroulant:focus-within > .sous-menu,
+.menu-deroulant[open] > .sous-menu {
+    display: block;
+}
+
+.menu-deroulant > .sous-menu li a:hover,
+.menu-deroulant > .sous-menu li a.active {
+    transform: none;
+    background-color: #111111;
 }
 
 header nav ul li a:hover,
@@ -77,7 +146,7 @@ header nav ul li a.active {
 main {
     max-width: 1000px;
     width: 100%;
-    margin: 65px auto 0; /* Marge fixe */
+    margin: 74px auto 0;
     padding: 0 15px;
 }
 
@@ -96,12 +165,16 @@ section h2 {
     color: #21c25d;
     margin-bottom: 10px;
     font-size: 1.4em;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
     border-bottom: 2px solid #111111;
     padding-bottom: 5px;
 }
 
 section h3 {
     font-size: 1.2rem;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
 }
 
 section p {
@@ -137,6 +210,10 @@ footer {
         font-size: 1rem;
     }
 
+    .menu-deroulant > summary {
+        font-size: 1rem;
+    }
+
     header div img {
         height: 32px;
     }
@@ -145,6 +222,26 @@ footer {
 @media screen and (max-width: 768px) {
     header {
         padding: 3px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header div {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4px;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        justify-content: center;
+        row-gap: 6px;
+        column-gap: 8px;
     }
 
     header div img {
@@ -156,11 +253,22 @@ footer {
     }
 
     header nav ul li {
-        margin: 0 8px;
+        margin: 0 4px;
     }
 
     header nav ul li a {
         font-size: 0.9rem;
+    }
+
+    .menu-deroulant > summary {
+        font-size: 0.9rem;
+    }
+
+    .menu-deroulant > .sous-menu {
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 220px;
+        max-width: 92vw;
     }
 
     header nav ul li a:hover,
@@ -168,8 +276,14 @@ footer {
         transform: scale(1.1); /* Effet plus subtil sur mobile */
     }
 
+    .menu-deroulant > summary:hover,
+    .menu-deroulant > summary:focus-visible {
+        transform: scale(1.02);
+        text-decoration: underline;
+    }
+
     main {
-        margin-top: 65px; /* Garder la même marge que par défaut */
+        margin-top: 92px;
         padding: 0 10px;
     }
 
@@ -178,7 +292,12 @@ footer {
     }
 
     section h2 {
+        font-size: 1.25rem;
         margin-top: 5px;  /* Ajout d'espace supplémentaire */
+    }
+
+    section h3 {
+        font-size: 1.05rem;
     }
 }
 
@@ -192,11 +311,23 @@ footer {
     }
 
     header nav ul li {
-        margin: 0 5px;
+        margin: 0 3px;
     }
 
     header nav ul li a {
-        font-size: 0.8rem;
+        font-size: 0.78rem;
+    }
+
+    .menu-deroulant > summary {
+        font-size: 0.78rem;
+    }
+
+    .menu-deroulant > .sous-menu {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        min-width: 210px;
+        max-width: 92vw;
     }
 
     header nav ul li a:hover,
@@ -204,8 +335,14 @@ footer {
         transform: scale(1.05);
     }
 
+    .menu-deroulant > summary:hover,
+    .menu-deroulant > summary:focus-visible {
+        transform: scale(1.02);
+        text-decoration: underline;
+    }
+
     main {
-        margin-top: 65px; /* Garder la même marge que par défaut */
+        margin-top: 104px;
         padding: 0 8px;
     }
 
@@ -214,7 +351,22 @@ footer {
     }
 
     section h2 {
-        margin-top: 20px;  /* Encore plus d'espace pour très petits écrans */
+        font-size: 1.1rem;
+        margin-top: 12px;
+    }
+
+    section h3 {
+        font-size: 0.98rem;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .menu-deroulant:hover > .sous-menu {
+        display: none;
+    }
+
+    .menu-deroulant[open] > .sous-menu {
+        display: block;
     }
 }
 
