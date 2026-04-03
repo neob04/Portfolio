@@ -25,6 +25,18 @@ const dropdownMenus = document.querySelectorAll('.menu-deroulant');
 const isMobileMenu = () => window.matchMedia('(max-width: 768px)').matches;
 
 dropdownMenus.forEach(menu => {
+  menu.addEventListener('toggle', () => {
+    if (!menu.open) {
+      return;
+    }
+
+    dropdownMenus.forEach(otherMenu => {
+      if (otherMenu !== menu) {
+        otherMenu.open = false;
+      }
+    });
+  });
+
   const summary = menu.querySelector('summary');
   const subLinks = menu.querySelectorAll('.sous-menu a');
 
