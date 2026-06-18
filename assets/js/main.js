@@ -1,10 +1,33 @@
 // HEADER
 // En tete actifs //
-document.querySelectorAll('header nav ul li a').forEach(link => {
-  if (link.pathname === window.location.pathname) {
+const navLinks = document.querySelectorAll('header nav ul li a');
+
+function updateActiveNavLink() {
+  const currentPath = window.location.pathname;
+  const currentHash = window.location.hash;
+
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+
+    if (link.pathname !== currentPath) {
+      return;
+    }
+
+    if (link.hash) {
+      if (link.hash === currentHash) {
+        link.classList.add('active');
+      }
+      return;
+    }
+
+    if (!currentHash) {
       link.classList.add('active');
     }
-});
+  });
+}
+
+updateActiveNavLink();
+window.addEventListener('hashchange', updateActiveNavLink);
 
 // Sélectionner tous les liens des onglets
 const tabs = document.querySelectorAll('.tab');
